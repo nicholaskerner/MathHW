@@ -1,0 +1,335 @@
+This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=pdflatex 2013.1.2)  26 MAR 2013 01:41
+entering extended mode
+**geometry5.tex
+(C:\Users\Nick\Desktop\Euclidean\geometry5.tex
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, dumylang, nohyphenation, ge
+rman, ngerman, german-x-2009-06-19, ngerman-x-2009-06-19, french, loaded.
+
+("C:\Users\Nick\Desktop\old desktop\Clip\LaTeX_R_F10\MikTexPortable\tex\latex\b
+ase\article.cls"
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+
+("C:\Users\Nick\Desktop\old desktop\Clip\LaTeX_R_F10\MikTexPortable\tex\latex\b
+ase\size12.clo"
+File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:\Users\Nick\Desktop\old desktop\Clip\LaTeX_R_F10\MikTexPortable\tex\latex\a
+ms\math\amsmath.sty"
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+
+("C:\Users\Nick\Desktop\old desktop\Clip\LaTeX_R_F10\MikTexPortable\tex\latex\a
+ms\math\amstext.sty"
+Package: amstext 2000/06/29 v2.01
+
+("C:\Users\Nick\Desktop\old desktop\Clip\LaTeX_R_F10\MikTexPortable\tex\latex\a
+ms\math\amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks14
+\ex@=\dimen103
+))
+("C:\Users\Nick\Desktop\old desktop\Clip\LaTeX_R_F10\MikTexPortable\tex\latex\a
+ms\math\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen104
+)
+("C:\Users\Nick\Desktop\old desktop\Clip\LaTeX_R_F10\MikTexPortable\tex\latex\a
+ms\math\amsopn.sty"
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count87
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count88
+\leftroot@=\count89
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count90
+\DOTSCASE@=\count91
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen105
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count92
+\c@MaxMatrixCols=\count93
+\dotsspace@=\muskip10
+\c@parentequation=\count94
+\dspbrk@lvl=\count95
+\tag@help=\toks15
+\row@=\count96
+\column@=\count97
+\maxfields@=\count98
+\andhelp@=\toks16
+\eqnshift@=\dimen106
+\alignsep@=\dimen107
+\tagshift@=\dimen108
+\tagwidth@=\dimen109
+\totwidth@=\dimen110
+\lineht@=\dimen111
+\@envbody=\toks17
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks18
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+)
+("C:\Users\Nick\Desktop\old desktop\Clip\LaTeX_R_F10\MikTexPortable\tex\latex\a
+msfonts\amssymb.sty"
+Package: amssymb 2009/06/22 v3.00
+
+("C:\Users\Nick\Desktop\old desktop\Clip\LaTeX_R_F10\MikTexPortable\tex\latex\a
+msfonts\amsfonts.sty"
+Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
+))
+("C:\Users\Nick\Desktop\old desktop\Clip\LaTeX_R_F10\MikTexPortable\tex\latex\g
+raphics\graphicx.sty"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\Nick\Desktop\old desktop\Clip\LaTeX_R_F10\MikTexPortable\tex\latex\g
+raphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks19
+)
+("C:\Users\Nick\Desktop\old desktop\Clip\LaTeX_R_F10\MikTexPortable\tex\latex\g
+raphics\graphics.sty"
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\Nick\Desktop\old desktop\Clip\LaTeX_R_F10\MikTexPortable\tex\latex\g
+raphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("C:\Users\Nick\Desktop\old desktop\Clip\LaTeX_R_F10\MikTexPortable\tex\latex\0
+0miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+("C:\Users\Nick\Desktop\old desktop\Clip\LaTeX_R_F10\MikTexPortable\tex\latex\p
+dftex-def\pdftex.def"
+File: pdftex.def 2010/02/14 v0.04n Graphics/color for pdfTeX
+\Gread@gobject=\count99
+))
+\Gin@req@height=\dimen112
+\Gin@req@width=\dimen113
+) (C:\Users\Nick\Desktop\Euclidean\geometry5.aux)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+
+("C:\Users\Nick\Desktop\old desktop\Clip\LaTeX_R_F10\MikTexPortable\tex\context
+\base\supp-pdf.tex"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count100
+\scratchdimen=\dimen114
+\scratchbox=\box28
+\nofMPsegments=\count101
+\nofMParguments=\count102
+\everyMPshowfont=\toks20
+\MPscratchCnt=\count103
+\MPscratchDim=\dimen115
+\MPnumerator=\count104
+\everyMPtoPDFconversion=\toks21
+)
+Underfull \hbox (badness 10000) in paragraph at lines 53--54
+
+ []
+
+LaTeX Font Info:    Try loading font information for U+msa on input line 55.
+
+("C:\Users\Nick\Desktop\old desktop\Clip\LaTeX_R_F10\MikTexPortable\tex\latex\a
+msfonts\umsa.fd"
+File: umsa.fd 2009/06/22 v3.00 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 55.
+
+("C:\Users\Nick\Desktop\old desktop\Clip\LaTeX_R_F10\MikTexPortable\tex\latex\a
+msfonts\umsb.fd"
+File: umsb.fd 2009/06/22 v3.00 AMS symbols B
+)
+Underfull \hbox (badness 10000) in paragraph at lines 55--56
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 60--61
+
+ []
+
+<hw5_prob1.png, id=1, 882.29625pt x 367.3725pt>
+File: hw5_prob1.png Graphic file (type png)
+ <use hw5_prob1.png> [1
+
+{C:/Users/Nick/Desktop/old desktop/Clip/LaTeX_R_F10/MikTexPortable/pdftex/confi
+g/pdftex.map} <C:/Users/Nick/Desktop/Euclidean/hw5_prob1.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 74--75
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--77
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 81--82
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 86--87
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 89--90
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 95--96
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--98
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--100
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 101--102
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 103--104
+
+ []
+
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 109--110
+
+ []
+
+
+Overfull \hbox (57.43405pt too wide) in alignment at lines 117--126
+ [][][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--134
+
+ []
+
+[3] [4]
+Underfull \hbox (badness 10000) in paragraph at lines 145--146
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 149--150
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 151--152
+
+ []
+
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 161--162
+
+ []
+
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 166--167
+
+ []
+
+[7]
+Underfull \hbox (badness 10000) in paragraph at lines 171--172
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 175--176
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 177--178
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 179--180
+
+ []
+
+[8] <hw5_prob9.png, id=37, 686.565pt x 632.3625pt>
+File: hw5_prob9.png Graphic file (type png)
+ <use hw5_prob9.png> [9 <C:/Users/Nick/Desktop/Euclidean/hw5_prob9.png (PNG cop
+y)>]
+(C:\Users\Nick\Desktop\Euclidean\geometry5.aux) ) 
+Here is how much of TeX's memory you used:
+ 1809 strings out of 495285
+ 23154 string characters out of 3178072
+ 81505 words of memory out of 3000000
+ 5018 multiletter control sequences out of 15000+200000
+ 9535 words of font info for 37 fonts, out of 3000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 27i,22n,24p,1907b,165s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/Nick/Desktop/old des
+ktop/Clip/LaTeX_R_F10/MikTexPortable/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+<C:/Users/Nick/Desktop/old desktop/Clip/LaTeX_R_F10/MikTexPortable/fonts/type1/
+public/amsfonts/cm/cmmi12.pfb><C:/Users/Nick/Desktop/old desktop/Clip/LaTeX_R_F
+10/MikTexPortable/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Nick/Deskt
+op/old desktop/Clip/LaTeX_R_F10/MikTexPortable/fonts/type1/public/amsfonts/cm/c
+mr12.pfb><C:/Users/Nick/Desktop/old desktop/Clip/LaTeX_R_F10/MikTexPortable/fon
+ts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Nick/Desktop/old desktop/Clip/La
+TeX_R_F10/MikTexPortable/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Ni
+ck/Desktop/old desktop/Clip/LaTeX_R_F10/MikTexPortable/fonts/type1/public/amsfo
+nts/cm/cmsy6.pfb><C:/Users/Nick/Desktop/old desktop/Clip/LaTeX_R_F10/MikTexPort
+able/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Nick/Desktop/old deskto
+p/Clip/LaTeX_R_F10/MikTexPortable/fonts/type1/public/amsfonts/symbols/msam10.pf
+b>
+Output written on geometry5.pdf (9 pages, 139156 bytes).
+PDF statistics:
+ 70 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+

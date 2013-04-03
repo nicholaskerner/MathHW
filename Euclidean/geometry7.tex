@@ -1,0 +1,245 @@
+%Latex2e file
+\documentclass[12pt,letterpaper]{article}
+%\renewcommand{\arraystretch}{2}
+%\input{\scrload.tex}
+\setlength{\textwidth}{6.5in}
+\setlength{\textheight}{9.5in}
+
+\setlength{\oddsidemargin}{-.25in}
+\setlength{\evensidemargin}{-.25in}
+\setlength{\topmargin}{-.25in}
+\pagestyle{empty}
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+
+\newcommand{\R}{\ensuremath{{\mathbb{R}}}}
+\newcommand{\Z}{\ensuremath{{\mathbb{Z}}}}
+\newcommand{\Q}{\ensuremath{{\mathbb{Q}}}}
+\newcommand{\N}{\ensuremath{{\mathbb{N}}}}
+\newcommand{\C}{\ensuremath{{\mathbb{C}}}}
+\newcommand{\Proof}{\noindent {\bf Proof: }}
+\newcommand{\QED}{\begin{flushright}QED\end{flushright}}
+\newcommand{\Refl}{{\bf Reflexive: }}
+\newcommand{\Symm}{{\bf Symmetric: }}
+\newcommand{\Tran}{{\bf Transitive: }}
+\newcommand{\ep}{\varepsilon}
+\newcommand{\ri}{\right|}
+\newcommand{\lef}{\left|}
+\newcommand{\toR}{\to \R}
+\newcommand{\fancy}[1]{#1_{\text{fancy}}}
+\newcommand{\pro}[1]{\noindent {\bf #1}}
+\newcommand{\prob}[1]{\newpage\noindent {\bf #1}}
+\newcommand{\bacon}{\approx}
+
+   
+\begin{document}
+\begin{flushright}
+Nick Kerner
+
+Homework 7
+
+Chapter 6: 2, 3, 6, 7, 8, 12
+
+Major Exercises 3, 11
+
+\end{flushright}
+\begin{center}
+\large{Geometry}\\
+\end{center}
+
+\pro{2 }This problem has five parts.  In the first part we will construct Saccheri quadrilaterals associated with any triangle $\triangle ABC$.  Then we will apply this construction.  Figure 6.15 illustrates the case where the angles of the triangle at A and B are acute;  you are invited to draw the figure when one of these angles is obtuse or right.  \\
+
+
+a. Let I,J,K be the midpoints of BC, CA, AB, respectively.  Let D, E, F, be the feet of the perpendiculars from A,B,C respectively, to $\overleftrightarrow{IJ}$ (which is called a medial line).  Prove, in any Hilbert plane, that $AD \cong CF \cong BE$, hence that $\square EDAB$ is a Saccheri quadrilateral with base ED summit AB.  \\
+
+\Proof
+
+By the definition of midpoint we know that $BI \cong IC$ and $CJ \cong JA$.  Also, vertical angle pairs are congruent, so $\angle BIE \cong \angle CIE$ and $\angle AJD \cong CJF$.  By SAA we know then that $\triangle BIE \cong \triangle CIF$, so $BE \cong CF$ and again by SAA we know $\triangle ADJ \cong \triangle CJF$ so $CF \cong AD$.  Hence $AD \cong BE$. 
+
+
+\QED
+
+
+
+Show that a triangle and its associated Saccheri quadrilateral have equal content-- ie, that you can dissect the Saccheri quadrilateral region into polygonal pieces and then reassemble these pieces to construct the triangular region. \\
+
+\Proof
+
+Note that the Saccheri quadrilateral can obviously be cut into 3 regions, $\triangle BEI, \square BIJA$, and $\triangle AJD$.  Now we know that $\square BIJA$ is shared between the triangle and the Saccheri quadrilateral, and we know that $\triangle BEI \cong \triangle CFI$ and $\triangle ADJ \cong \triangle CFJ$.  If we dissect the Saccheri quadrilateral in this manner it is obvious we can reassemble the triangle by moving  parts into the section congruent to them. 
+
+
+\QED
+
+
+\newpage 
+
+b. Prove that the perpendicular bisector of AB is also perpendicular to $\overleftrightarrow{IJ}$. (Hint: Use a result about Saccheri quadrilaterals.)  Hence if the plane is hyperbolic, $\overleftrightarrow{IJ}$ is divergently parallel to $\overleftrightarrow{AB}$.  Assume now the plane is real, so lengths can be assigned (Theorem 4.3) and the Saccheri-Legendre theorem applies. \\
+
+\Proof
+
+As we have a Saccheri quadrilateral, we know that $EB \cong DA$ and $\angle EBK \cong \angle DAK$.  Additionally, by our definition of K, we know that $BK \cong AK$.  Therefore by SAS we know that $\triangle EBK \cong \triangle DAK$.  So $EK cong DK$ and $\angle BKE \cong \angle AKD$.  Next consider the perpendicular bisector of AB.  Say there is some point on it Z such that Z and C are on the same side of $\overleftrightarrow{BA}$, so $\angle BKZ \cong \angle AKZ$. \\
+
+Note that since $\angle AKD \cong \angle BKE$ and since we know that B and D are distinct points, we know that they are acute angles (they do not make right angles, as that would require B=D). So we know that $\overrightarrow{KZ}$ is between $\overrightarrow{KE}$ and $\overrightarrow{KD}$.  By the crossbar theorem, we know that $\overrightarrow{KZ}$ intersects ED, call this point K'.\\
+
+So consider $\triangle EKD$.  We now know that this is isosceles so $\angle KED \cong \angle KDE$. Additionally we know that since $\angle BKK' \cong \angle AKK'$ and $\angle BKE \cong \angle AKD$ that $\angle EKK' \cong  DKK'$ by angle subtraction.  So by ASA, we know that $\triangle KEK' \cong\triangle KDK'$.  Therefore $\angle EK'K \cong \angle DK'K$ so they are right angles, that is, $\overleftrightarrow{KK'}$ is perpendicular to $\overleftrightarrow{ED} = \overleftrightarrow{IJ}$. 
+
+
+
+\QED
+
+
+
+
+
+
+
+\newpage 
+
+c. Prove that $\overline{ED} = 2\overline{IJ}$.  Deduce that $\overline{AB} > 2\overline{IJ}$ (respectively $\overline{AB} = 2\overline{IJ}$) if the plane is hyperbolic (respectively is Euclidean).\\
+
+\Proof
+
+
+By segment addition we know that $IJ = IF + FJ$ and we know that $ED = EI + IF + FJ + JD$.  Additionally, in an early part of the problem we showed that $\triangle EBI \cong \triangle FCI$ and $\triangle CFJ \cong \triangle ADJ$.  So we know that $EI \cong IF$ and $FJ \cong JD$.  Therefore 
+
+\begin{eqnarray*}
+ED &=& EI + IF + FJ + JD\\
+&=& IF + IF + FJ + FJ\\
+&=& (IF + FJ) + (IF + FJ)\\
+&=& 2(IF + FJ)\\
+&=& 2IJ
+\end{eqnarray*}
+
+\QED
+
+
+If the plane is hyperbolic, then we know that by theorem 6.2 that the acute angle hypothesis is satisfied, so by Corollary 4 to Saccheri III, we know that the summit of $\square BADE$ (BA) is greater than the base (ED).  Therefore $AB > ED = 2IJ$.  
+
+Similarly, if in Euclidean geometry, $\square ABDE$ is a rectangle, and by Corollary 4 to Saccheri III, the base is equal to the summit.  Therefore $AB = ED = 2IJ$.  
+
+
+
+
+
+
+\newpage 
+
+d. Prove that K,F, and C are collinear if and only if $AC \cong BC$ (isosceles triangle).  If that is the case, prove that F is the midpoint of CK iff the plane is Euclidean.  If K,F, and C are not collinear and the plane is not Euclidean, prove that F is the midpoint of CK iff the plane is Euclidean.  If K, F, and C are not collinear and the plane is not Euclidean, prove that $\overline{CF}$ is not perpendicular to $\overline{AB}$ (ray $\overrightarrow{CF}$ does intersect AB at some point G in the case shown, where the angles at A and B are acute, by the crossbar theorem, but CG is not an altitude of the triangle if the plane is not Euclidean).\\
+
+Prove that K,F, and C are collinear iff $AC \cong BC$\\
+
+\Proof
+
+$\Rightarrow:$  Assume K, F, and C are collinear.
+
+
+
+
+$\Leftarrow:$  Assume $AC \cong BC$.  So $\triangle ABC$ is isosceles, so $\angle CBA \cong \angle CAB$.  So by SAS we know that $\triangle BKC \cong \triangle KAC$ ($BK \cong KA$ by definition of K).  Therefore we know that $\angle BCK \cong \angle ACK$. 
+
+Also, by previous part of this problem we know that $\triangle BEI \cong \triangle CFI$ and $\triangle ADJ \cong \triangle CFJ$ so $BI \cong IC$ and $CJ \cong JA$.  Therefore since $2CI = CI + BI = BC = AC = CJ + JA = 2CJ$, we know that $CI = CJ$ so $CI \cong CJ$.  So we know that $\angle CIJ \cong \angle CJI$ as $\triangle CJI$ is isosceles. So we know that $\angle CFI \cong \angle CFJ$ since F is the foot from C to $\overleftrightarrow{ED}$.  Therefore by SAA we know that $\triangle CIF \cong \triangle CJF$. Therefore 
+$\angle ICF \cong \angle JCF$. 
+
+However we know that $\angle BCK^\circ + \angle ACK^\circ = \angle BCA^\circ$
+
+\QED
+
+
+
+
+
+
+
+\newpage 
+
+e. Show that if the Pythagorean equation holds for all right triangles and if $\angle C$ is a right angle, then $\overline{AB} = 2\overline{IJ}$ can be proved.  Deduce from part c that such a plane must be Euclidean.  (Use these results to add to your answers in Exercise 1.)
+
+
+
+
+
+
+
+\prob{3 }(Hyperbolic geometry)
+Assume that parallel lines l and l' have a common perpendicular segment MM'.  Prove that MM'  is the shortest segment between any point of l and any point of l'.  (Hint: In showing MM' < AA', first dispose of the case in which A' is perpendicular to l' by means of a result about Lambert quadrilaterals and then take care of the other case by Exercise 22, chapter 4.)
+
+
+
+
+\prob{6 }Let $\overrightarrow{PY}$ be a limiting parallel ray to  through P and let X be a point on this ray between P and Y (Figure 6.17).  It may seem intuitively obvious that $\overrightarrow{XY}$ is a limiting parallel ray to l through X, but this requires proof.  Justify the steps that have not been justified. 
+
+1. We must prove that any ray $\overrightarrow{XS}$ between $\overrightarrow{XY}$ and $\overrightarrow{XY}$ meets l, where R is the foot of the perpendicular from X to l. 
+
+2. S and Y are on the same side of $\overrightarrow{XR}$.  
+
+3. P and Y are on opposite sides of $\overleftrightarrow{XR}$. 
+
+4. By Exercise 5, S and Y are on the same side of $\overleftrightarrow{PQ}$.  
+
+5. S and R are on the same side of $\overleftrightarrow{XY} = \overleftrightarrow{PR}.$
+
+6. Q and R are on the same side of $\overleftrightarrow{PY}$.
+
+7. Q and S are on the same side of $\overleftrightarrow{PY}$.
+
+8. Thus, $\overrightarrow{PS}$ lies between $\overrightarrow{PY} $ and $\overrightarrow{PQ}$, so it intersects l in a point T.  
+
+9. Point X is exterior to $\triangle PQT$.  
+
+10. $\overrightarrow{XS}$ does not intersect PQ.  
+
+11. Hence $\overrightarrow{XS}$ intersects QT (proposition 3.9a), so $\overrightarrow{XS}$ meets l. 
+
+
+
+
+\prob{7 } Let us assume instead that $\overrightarrow{XY}$ is limiting parallel to l, with P*X*Y.  Porve that $\overrightarrow{PY}$ is limiting parallel to l.  (Hint: See figure 6.18.  You must show that $\overrightarrow{PZ}$ meets l in a point V.  Choose any S such that S*P*Z.  Show that SX meets $\overleftrightarrow{PQ}$ in a point U such that U*P*Q.  Choose any W such that U*X*W and show that $\overrightarrow{XW}$ is between $\overrightarrow{XY}$ and $\overrightarrow{XR}$ so that $\overrightarrow{XW}$ meets l in a point T.  Apply Proposition 3.9(a) to get V.)
+
+
+\prob{8 } Let $\overrightarrow{PX}$ be the right limiting parallel ray to l through P and let Q and X' be the feet of the perpendiculars from P and X, respectively, to l (Figure 6.19).  Prove that PQ > XX'. (Hint: Use Exercise 6 to show that $\angle X'XY$ is acute and that $\angle X'XP$ is obtuse, so that Proposition 4.13, Chapter 4, can be applied to $\square PQX'X$.) This exercise shows that the distance from X to l decreases as X recedes from P along a limiting parallel ray.  In fact, on e can prove that the distance from X to l approaches zero (see Major exercise 11).
+
+
+
+\prob{12 } In theorem 4.1 it was proved in neutral geometry that if alternate interior angles are congruent, then the lines are parallel.  Strengthen this result in hyperbolic geometry by proving that the lines are divergently parallel, ie, that they have a common perpendicular.  (Hint: Let M be the midpoint of transversal segment PQ and drop perpendiculars MN and ML to lines m and l;  see Figure 6.23.  Prove that L, M, and N are collinear by the method of congruent triangles.)
+
+
+
+\prob{Major Exercises 3 }
+
+Transitivity of limiting parallelism.  If $\overrightarrow{AB}$ and $\overrightarrow{CD}$ are both limiting parallel to $\overrightarrow{EF}$, then they are limiting parallel to each other. Justify the steps in the proof.  
+
+1. $\overleftrightarrow{AB}$ and $\overleftrightarrow{CD}$ have no point in common.
+
+2. Hence there are two cases depending on whether $\overleftrightarrow{EF}$ is between $\overleftrightarrow{AB}$ and $\overleftrightarrow{CD}$ or $\overleftrightarrow{AB}$ and $\overleftrightarrow{CD}$ are both on the same side of $\overleftrightarrow{EF}$.
+
+3. In the case where $\overleftrightarrow{EF}$ is between $\overleftrightarrow{AB}$ and $\overleftrightarrow{CD}$, let G be the intersection of AC with $\overleftrightarrow{EF}$ (see figure 6.26).  We may assume G lies on ray $\overrightarrow{EF}$; otherwise we can consider $\overrightarrow{GF}$.
+
+4. Any ray $\overrightarrow{AH}$ interior to $\angle GAB$ must intersect $\overrightarrow{EF}$ in a point l.
+
+5. $\overrightarrow{IH}$, lying interior to $\angle CIF$, must intersect $\overrightarrow{CD}$
+
+6. Hence any ray $\overrightarrow{AH}$ interior to $\angle CAB$ must intersect $\overrightarrow{CD}$, so $\overrightarrow{AB}$ is limiting parallel to $\overrightarrow{CD}$. 
+
+do we need to do the sub lemma? Gasp!
+
+8. Then AE intersects $\overleftrightarrow{CD}$ in a point G, which we may assume lies on ray $\overrightarrow{CD}$. 
+
+9. Any ray $\overrightarrow{AH}$ interior to $\angle GAB$ intersects $\overrightarrow{EG}$ in a point I.
+
+10.  Since $\overrightarrow{CD}$ enters $\triangle AEI$ at G and does not intersect side EI, it must intersect AI.
+
+11. Therefore, $\overrightarrow{CD}$ is limiting parallel to $\overrightarrow{AB}$. 
+
+
+
+
+\prob{Major Exercises 11 } Let ray r emanating from point P be limiting parallel to line l and let Q be the foot of the perpendicular from P to l (Figure 6.38).  Justify the terminology ``asymptotically parallel'' by proving that for any point R between P and Q there exists a point R' on ray r such that $R'Q' \cong RQ$, where Q' is the foot of the perpendicular from R' to l.  (Hint: Use major exercise 3 and proposition 6.6 to prove the line through R that is asymptotically parallel to l in the opposite direction from r intersects r at a point S.  Show that if T is the foot of the perpendicular from S to l, the point R' obtained by reflecting R across line $\overleftrightarrow{ST}$ is the desired point.)
+
+	Similarly, show that the lines diverge in the other direction.  Use a similar method to prove that the perpendicular dropped one line divergently parallel to another are unbounded. 
+
+
+
+
+\end{document}

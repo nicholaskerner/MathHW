@@ -1,0 +1,286 @@
+%Latex2e file
+\documentclass[12pt,letterpaper]{article}
+%\renewcommand{\arraystretch}{2}
+%\input{\scrload.tex}
+\setlength{\textwidth}{6.5in}
+\setlength{\textheight}{9.5in}
+
+\setlength{\oddsidemargin}{-.25in}
+\setlength{\evensidemargin}{-.25in}
+\setlength{\topmargin}{-.25in}
+\pagestyle{empty}
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+
+\newcommand{\R}{\ensuremath{{\mathbb{R}}}}
+\newcommand{\Z}{\ensuremath{{\mathbb{Z}}}}
+\newcommand{\Q}{\ensuremath{{\mathbb{Q}}}}
+\newcommand{\N}{\ensuremath{{\mathbb{N}}}}
+\newcommand{\C}{\ensuremath{{\mathbb{C}}}}
+\newcommand{\Proof}{\noindent {\bf Proof: }}
+\newcommand{\QED}{\begin{flushright}QED\end{flushright}}
+\newcommand{\Refl}{{\bf Reflexive: }}
+\newcommand{\Symm}{{\bf Symmetric: }}
+\newcommand{\Tran}{{\bf Transitive: }}
+\newcommand{\ep}{\varepsilon}
+\newcommand{\ri}{\right|}
+\newcommand{\lef}{\left|}
+\newcommand{\toR}{\to \R}
+\newcommand{\fancy}[1]{#1_{\text{fancy}}}
+\newcommand{\pro}[1]{\noindent {\bf #1}}
+\newcommand{\prob}[1]{\newpage\noindent {\bf #1}}
+\newcommand{\bacon}{\approx}
+
+   
+\begin{document}
+\begin{flushright}
+Nick Kerner
+
+Homework 6
+
+Chapter 5: 1, 2, 6, 16
+
+\end{flushright}
+\begin{center}
+\large{Geometry}\\
+\end{center}
+
+\pro{1} Given a right triangle $\triangle PXY$ with right angle at X, form a new right triangle $\triangle PX'Y'$ that has acute angle $\angle P$ in common with the given triangle, right angle at $X'$, but double the hypotenuse (prove that this can be done);  see Figure 5.8. If the plane does not satisfy the obtuse angle hypotheses, prove that the side opposite the acute angle is at least doubled, whereas the side adjacent to the acute angle is at most doubled.  (Hint: Extend XY far enough to drop a perpendicular Y'Z to $\overleftrightarrow{XY}$.  Prove that $\triangle PXY \cong \triangle{Y'ZY}$ and apply Corollary 3 to Proposition 4.13, Chapter 4.)
+
+
+Prove that, given a triangle, you can construct a triangle with double the hypotenuse.
+
+
+
+
+\Proof
+
+We know by C1 that we can construct $YY' \cong PY$ along the ray $\overrightarrow{PY}$ starting at Y.  Then drop a perpendicular to the line $\overleftrightarrow{PX}$ and call this new foot X'.  Now since $PY \cong YY'$ by the measurement theorem we know that they have the same length and by segment addition we know that PY' has length double that of PY.  Additionally we know that $\angle X'$ is a right angle. So we have a triangle $\triangle PX'Y'$ with a right angle at X' and double the hypotenuse of $\triangle PXY$.
+
+\QED
+
+If the plane does not satisfy the obtuse angle hypotheses, prove that the side opposite the acute angle is at least doubled, whereas the side adjacent to the acute angle is at most doubled.  (Hint: Extend XY far enough to drop a perpendicular Y'Z to $\overleftrightarrow{XY}$.  Prove that $\triangle PXY \cong \triangle{Y'ZY}$ and apply Corollary 3 to Proposition 4.13, Chapter 4.)
+
+\Proof
+
+Assume the plane does not satisfy the obtuse angle hypothesis.  Also, drop a perpendicular from Y' to $\overleftrightarrow{XY}$ and call this foot Z.  Note that $\angle XYP$ and $\angle Y'YZ$ are vertical angles and are therefore congruent.  By problem statement we know that $PY \cong YY'$, and we know that $\angle PXY \cong \angle Y'ZY$ as they are both right angles.  Therefore by SAA we know that $\triangle PXY \cong \triangle Y'ZY$.  
+
+
+
+So we know that $\angle PXY$ is a right angle, and that it is supplementary to $\angle X'XY$, so by the definition of right angles, $\angle X'XY$ is a right angle.  So we know that in $\square XX'Y'Z$, $\angle X'XZ$, $\angle Y'X'X$, and $\angle XZY'$ are all right angles. Therefore we have a Lambert quadrilateral.  Since the obtuse angle hypothesis is not satisfied, and by the Uniformity theorem, we know that our Lambert quadrilateral's fourth angle is not obtuse.  Therefore it is either acute or right. 
+
+Case 1: So rectangles exist (as our Lambert quadrilateral is one) and the Euclidean parallel property is present in this plane.
+
+So we know that $ZY' \cong XX'$ since we have a rectangle (uniformity theorem corollary 2).  Therefore $XX' \cong PX$.  Therefore the leg of $\triangle PX'Y'$ adjacent to $\angle X'PY'$ is double the length of PX.  Similarly, we know that XZ is double ZY since we have congruent triangles ($XY \cong YZ$), and $XZ \cong X'Y'$, so we know that X'Y' is double the length of XY.  
+
+Case 2: There exists a Lambert quadrilateral whose fourth angle is acute.  By the Uniformity theorem, $\square XX'Y'Z$ does as well.
+
+Note again that since we have congruent triangles ($\triangle PXY$ and $\triangle Y'ZY$) that $ZY' \cong PX$ and $ZY \cong YX$.  Then by Saccheri II we know that X'Y' is greater than XZ and ZY' is greater than XX'.  Therefore, in terms of length measures, $PX' = PX + XX' < PX + ZY' = PX + PX = 2PX$ and $X'Y' > XZ = XY + YZ = XY + XY = 2XY$.  
+
+
+Therefore the side adjacent the acute angle will be less than double the original length and the side opposite it will be at least double it. 
+
+\QED
+
+
+
+
+
+
+\prob{2} Use Exercise 1 and the Saccheri-Legendre theorem to prove that Archimedes axiom implies Aristotle's axiom.  ie in Figure 5.8, prove that as Y "recedes endlessly" from P, perpendicular segment XY increases without bound.  (Hint: Use Archimedes' axiom and the fact that $2^n \to \infty$ as $n\to \infty$.)  Does segment PX also increase indefinitely?\\
+
+
+\Proof
+
+Suppose to the contrary that there is some segment AB which bounds the length of X'Y' (the length of the side opposite $\angle P$ when we extend the hypotenuse. Then by Archimedes's axiom, we know that there is some number $n$ such that if we lay off XY $n$ times, that $nXY \geq AB$.  Therefore lay off PY along the ray $\overrightarrow{PY}$ $2^n > n+1$ times. By uniformity theorem we know that if can find a Lambert quadrilateral in our Archimedean Hilbert plane in which the fourth angle is not obtuse, then we use the result from Example 1.  \\
+
+
+
+Since we are assuming the Archimedean axiom in a Hilbert plane, we can use Saccheri-Legendre so we know that the angle sum of every triangle is less than or equal to 180.  Assume to the contrary that, despite this, the fourth angle of some Lambert quadrilateral $\square ABCD$ is obtuse (let this be $\angle C$). Consider triangles $\triangle ABD$ and $\triangle CBD$.  By angle addition and the measurement theorem we know that $\angle ABD^\circ + \angle DBC^\circ = 90$ and $\angle ADB^\circ + \angle CDB^\circ = 90$.  We also know that $\angle A^\circ = 90$ and $\angle C > 90$.  Therefore if we know that the sum of the angle measures from each triangles should be less than or equal to 180, then the sum of the angle measures from both triangles together should be less than or equal to 360.  However, 
+
+\begin{eqnarray*}
+\angle A^\circ + \angle ABD^\circ + \angle ADB^\circ+ \angle CDB^\circ+ \angle CBD^\circ+ \angle C^\circ &=&\\ \angle A^\circ + (\angle ABD^\circ+ \angle CBD^\circ) + (\angle ADB^\circ+ \angle CDB^\circ)+ \angle C^\circ &=& 90 + 90 + 90+ \angle C^\circ\\
+&=& 270 + \angle C^\circ\\
+&>& 270 + 90\\
+&=& 360
+\end{eqnarray*}
+
+Contradiction.  Therefore the obtuse angle hypothesis does not apply here, so results from example 1 do.\\
+
+Note we will lay off PY along $\overrightarrow{PY}$ $2^{n}$ times.  Consider this, starting at i =1 and increasing to i = n, we lay off $2^i$ copies of PY.  While i = 1 we lay off 2 copies of PY for a length equal to 2PY.  When i = 2 we lay off 4 copies of PY, this is doubling the length 2PY so we have a new length 4PY.  Eventually we have length $2^n PY$.  Similarly, each time i increases, we double the length of the leg opposite the acute angle in the triangle made by dropping a perpendicular from our endpoint to $\overleftrightarrow{PX}$ (result of example 1).  Therefore we can construct a triangle such that $X'Y' \geq XY 2^{n} > XY n \geq AB$, so AB does not bound X'Y'.  Contradiction.
+
+
+
+
+\QED
+
+
+
+
+
+\prob{6} The following attempted proof of the parallel postulate is similar to Proclus' but he flaw is different.  Detect the flaw with the help of exercise 1.\\
+
+From the proof: ``As X recedes endlessly from P, PY increases indefinitely.''\\
+
+It is possible that as X recedes endlessly from P, PY increases indefinitely but not in a linear fashion.  If it increases indefinitely, but asymptotically towards l, then we never reach a point at which $PY' > PQ$, which is necessary for the proof to proceed. Exercise 1 shows that PY' has the ability to grow slower than PX, so we know this reasoning can be valid. 
+
+
+
+\prob{16} Let $\gamma$ be a circle with a center O and let P,Q, and R be three points on $\gamma$.  Prove that if P and R are diametrically opposite, then $\angle PQR$ is a right angle, and if O and Q are on the same side of $\overleftrightarrow{PR}$, then $(\angle PQR)^\circ = \frac{1}{2} (\angle POR)^\circ$.  (Hint again use the fact that angle sum is $180^\circ$.  There are four cases to consider, as in Figure 5.18.) State and prove the analogous result when O and Q are on opposite sides of $\overleftrightarrow{PR}$. \\
+
+
+According to a statement made before problem 10, this is to be done in real Euclidean geometry, in which the sum of angle measures interior to a triangle is 180$^\circ$.\\
+
+
+Prove that if P and R are diametrically opposite, then $\angle PQR$ is a right angle and if O and Q are on the same side of $\overleftrightarrow{PR}$, then $(\angle PQR)^\circ = \frac{1}{2} (\angle POR)^\circ$.\\
+
+\Proof
+
+Assume O and Q are on the same side of $\overleftrightarrow{PR}$.
+
+The first two cases involve O lying on the triangle, while the third and fourth case involved it being interior or exterior to the triangle. 
+
+Case 1: P and R are diametrically opposite.
+
+Since they both have sides that are radii, we know that they are isosceles and that $\angle QRO \cong \angle RQO$ and $\angle OQP \cong \angle OPQ$. Additionally we know that since O is the center of the circle that $P*O*R$, so by proposition 3.7 we know that $O$ is interior to $\angle PQR$.   Therefore by the measurement theorem we know that $\angle PQR^\circ= \angle PQO^\circ+ \angle OQR^\circ$ so we know that since the sum of interior angle measures of any triangle is $180^\circ$ that this holds for $\triangle PQR$, so $\angle QRP + \angle PQO^\circ+ \angle OQR^\circ + \angle QRP^\circ = 180$ and since we have two pairs of these angles congruent we know that $2(\angle PQO^\circ+ \angle OQR^\circ) = 180$ so $\angle PQO^\circ+ \angle OQR^\circ = 90^\circ$. \\
+
+Case 2: Either P and Q are diametrically opposite or Q and R are diametrically opposite.  Without loss of generality, let P and Q be diametrically opposite.  
+
+We know that since OR and OQ are radii, that $\triangle RQO$ is isosceles so $\angle OQR \cong \angle ORQ$.  So by the corollary to proposition 4.11, we know that
+
+\begin{eqnarray*}
+\angle POR^\circ &=& \angle ORQ^\circ + \angle OQR^\circ \\
+&=&  \angle OQR^\circ+ \angle OQR^\circ \\
+&=& 2 \angle OQR^\circ
+\end{eqnarray*} 
+
+Hence $\angle PQR^\circ = \angle OQR^\circ = \frac{1}{2} \angle POR^\circ$.
+
+
+
+
+
+\newpage
+Case 3: O is interior to $\triangle PQR$.
+
+So we know that O is interior to $\angle RPQ$, $\triangle PQR$ and $\triangle QRP$.  Additionally we know that $\triangle POQ$ and $\triangle ROQ$ are isosceles as they each have two legs which are radii. So $\angle OPQ \cong \angle OQP$ and $\angle OQR \cong \angle ORQ$.  So we know since triangle angle sums total 180 that 
+
+\begin{eqnarray*}
+\angle PQO^\circ+\angle PQO^\circ+\angle POQ^\circ &=&\angle PQO^\circ+\angle OPQ^\circ+\angle POQ^\circ\\
+&=&  180^\circ
+\end{eqnarray*}
+and 
+\begin{eqnarray*}
+\angle OQR^\circ+\angle OQR^\circ+\angle QOR^\circ &=& \angle OQR^\circ+\angle ORQ^\circ+\angle QOR^\circ\\
+&=& 180^\circ.
+\end{eqnarray*}  
+
+Additionally we know that since R is not diametrically opposite P or Q, that if we extend $\overleftrightarrow{OR}$, it will cut $\angle POQ$ (it cannot lie along $OP$ or $OQ$, and $\angle POR^\circ < 180$ and $\angle QOR^\circ < 180$ by definition).  So we know that $\angle POQ$ is now composed of two angles, whose measures sum to the measure of $\angle POQ$.  So we know that $\angle ROP$ and one of these new angles will be supplementary, and that $\angle ROQ$ will be supplementary with the other. So all four angles will make two supplementary pairs (and the pair created by cutting $\angle POQ$ will add to $\angle POQ$), so $$\angle ROP^\circ + \angle POQ^\circ + \angle QOR^\circ = 360^\circ.$$  
+Therefore we know that 
+
+\begin{eqnarray*}
+(\angle PQO^\circ+\angle PQO^\circ+\angle POQ^\circ) +(\angle OQR^\circ+\angle OQR^\circ+\angle QOR^\circ)&=& 360^\circ\\
+&=& \angle ROP^\circ + \angle POQ^\circ + \angle QOR^\circ
+\end{eqnarray*}
+
+ so \begin{eqnarray*}
+ 2(\angle PQO^\circ+\angle OQR^\circ)&=& \angle PQO^\circ+\angle PQO^\circ +\angle OQR^\circ+\angle OQR^\circ  \\&=& \angle ROP^\circ 
+ \end{eqnarray*}
+
+ 
+ 
+
+Hence $\angle PQR^\circ = \angle PQO^\circ+\angle OQR^\circ  = \frac{1}{2} \angle POR^\circ$.\\
+
+
+
+
+
+\newpage 
+
+Case 4: O is exterior to $\triangle PQR$.
+
+
+First I show that $\overrightarrow{OR}$ is interior to $\angle POQ$ and $\overrightarrow{QP}$ is interior to $\angle OQR$:\\
+
+
+By the problem statement we know that O and Q are on the same side of $\overleftrightarrow{PR}$.\\
+
+Note that the lines $\overleftrightarrow{PQ}$ and $\overleftrightarrow{RQ}$ divide the circle into three sections. Either O and R are on the same side of $\overleftrightarrow{PQ}$ and O and P are on the same side of $\overleftrightarrow{RQ}$ or exactly one of these does not hold true.  If both hold then we know that O is interior to the circle.  However, that is case 3.  \\
+
+Therefore consider the other two cases.  Without loss of generality, let O and R be on opposite sides of $\overleftrightarrow{PQ}$.  However, we know that OR is a radius and PQ is a chord, so OR intersects PQ since we know that OR must intersect $\overleftrightarrow{PQ}$ and this can only happen in the interior of the circle.  Since the segments must intersect between P and Q, we know that $\overrightarrow{OR}$ is interior to $\angle POQ$.  Similarly, $\overrightarrow{QP}$ is interior to $\angle OQR$.  So $\angle POR^\circ + \angle ROQ^\circ = \angle POQ^\circ$ and $\angle PQR^\circ = \angle OQR^\circ - \angle OQP^\circ.$\\
+
+Additionally we know that both of these triangles are isosceles as they have 2 legs which are radii. Therefore $\angle OPQ \cong \angle OQP$ and $\angle OQR \cong \angle ORQ$.  Since triangles have angle sum 180 in this geometry, we know that 
+
+\begin{eqnarray*}
+\angle OQP^\circ + \angle OQP^\circ + \angle POQ^\circ &=& \angle OPQ^\circ + \angle OQP^\circ + \angle POQ^\circ \\
+&=& 180^\circ
+\end{eqnarray*}
+
+and 
+
+\begin{eqnarray*}
+\angle OQR^\circ + \angle OQR^\circ + \angle QOR^\circ &=& \angle QOR^\circ + \angle QRO^\circ + \angle OQR^\circ \\
+&=& 180^\circ.
+\end{eqnarray*}
+ 
+   So 
+   
+\begin{eqnarray*}
+2\angle PQR^\circ - \angle POR^\circ &=& 2(\angle OQR^\circ  -\angle OQP^\circ) - \angle POR^\circ \\
+&=& (2\angle OQR^\circ  -2\angle OQP^\circ) + (\angle QOR^\circ - \angle POQ^\circ)\\
+ &=& 2\angle OQR^\circ + \angle QOR^\circ -2\angle OQP^\circ - \angle POQ^\circ\\
+&=& (\angle OQR^\circ + \angle OQR^\circ + \angle QOR^\circ) -(\angle OQP^\circ + \angle OQP^\circ + \angle POQ^\circ)\\
+&=& 0^\circ.
+\end{eqnarray*}  
+   
+Hence $\angle PQR^\circ = \frac{1}{2} \angle POR^\circ$.
+
+
+\QED
+
+\newpage 
+
+Analogous statement:  $2\angle PQR^\circ = 360^\circ - \angle POR^\circ$.
+
+\Proof
+
+Note:  since Q and O are on opposite sides of $\overleftrightarrow{PR}$, QO must intersect $\overleftrightarrow{PR}$.  Since QO is a radius and $\overleftrightarrow{PR}$ is line which makes a chord, the intersection of QO and the line must be on the segment PR. If it were either endpoint, QO and PR would have both O and the endpoint in common, meaning that they are part of the same line, which would mean Q is not distinct from the endpoints.   Therefore since $\overrightarrow{OQ}$ intersects PR, the ray is between the rays $\overrightarrow{OP}$ and $\overrightarrow{OR}$. Therefore we know that $\angle POR^\circ = \angle POQ^\circ + \angle QOR^\circ$. Similarly we know that $\angle PQR^\circ = \angle PQO^\circ + \angle OQR^\circ$. 
+
+Now consider $\triangle OQR$ and $\triangle OQP$ and notice that both have radii as two of their legs. Therefore both triangles are isosceles.  So $\angle QRO \cong \angle RQO$ and $\angle OQP \cong \angle PQO$.  So we know (triangle angle sum is 180) that 
+
+\begin{eqnarray*}
+\angle RQO^\circ + \angle RQO^\circ + \angle QOR^\circ &=& \angle QRO^\circ + \angle RQO^\circ + \angle QOR^\circ\\
+&=& 180
+\end{eqnarray*}
+
+and 
+
+\begin{eqnarray*}
+\angle PQO^\circ+\angle PQO^\circ+\angle POQ^\circ &=& \angle PQO^\circ+\angle QPO^\circ+\angle POQ^\circ\\
+&=& 180
+\end{eqnarray*}
+
+so 
+
+\begin{eqnarray*}
+2(\angle PQO^\circ+  \angle RQO^\circ ) + \angle POR^\circ
+&=& 2(\angle PQO^\circ+  \angle RQO^\circ ) + \angle POQ^\circ  + \angle QOR^\circ\\
+&=& \angle PQO^\circ+\angle PQO^\circ+\angle POQ^\circ + \angle RQO^\circ + \angle RQO^\circ + \angle QOR^\circ \\
+&=& 360
+\end{eqnarray*}
+
+so $$ 2(\angle PQO^\circ+  \angle RQO^\circ ) = 360 - \angle POR^\circ$$
+
+
+\QED
+
+
+
+
+
+
+
+\end{document}
