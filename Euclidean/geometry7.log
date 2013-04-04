@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=pdflatex 2013.1.2)  4 APR 2013 00:13
+This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=pdflatex 2013.1.2)  4 APR 2013 05:50
 entering extended mode
 **geometry7.tex
 (C:\Users\Nick\Documents\GitHub\MathHW\Euclidean\geometry7.tex
@@ -180,82 +180,82 @@ Underfull \hbox (badness 10000) in paragraph at lines 52--53
 [1
 
 {C:/Users/Nick/Desktop/old desktop/Clip/LaTeX_R_F10/MikTexPortable/pdftex/confi
-g/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 80--81
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 85--86
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 87--88
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 89--90
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 91--92
-
- []
-
-
+g/pdftex.map}] [2]
 Underfull \hbox (badness 10000) in paragraph at lines 93--94
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 95--96
+Underfull \hbox (badness 10000) in paragraph at lines 98--99
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 103--104
-
- []
-
-[2]
-Underfull \hbox (badness 10000) in paragraph at lines 114--115
+Underfull \hbox (badness 10000) in paragraph at lines 100--101
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 118--119
+Underfull \hbox (badness 10000) in paragraph at lines 102--103
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--121
+Underfull \hbox (badness 10000) in paragraph at lines 104--105
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 106--107
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 108--109
 
  []
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 136--137
+Underfull \hbox (badness 10000) in paragraph at lines 117--118
 
  []
 
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 165--166
+Underfull \hbox (badness 10000) in paragraph at lines 128--129
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 167--168
+Underfull \hbox (badness 10000) in paragraph at lines 132--133
 
  []
 
-[5] [6] [7] [8] [9] [10] [11] [12] [13]
+
+Underfull \hbox (badness 10000) in paragraph at lines 134--135
+
+ []
+
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 150--151
+
+ []
+
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 179--180
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 181--182
+
+ []
+
+[7] [8] [9] [10] [11] [12] [13] [14] [15]
 (C:\Users\Nick\Documents\GitHub\MathHW\Euclidean\geometry7.aux) ) 
 Here is how much of TeX's memory you used:
  1793 strings out of 495285
  23048 string characters out of 3178072
- 79505 words of memory out of 3000000
+ 78505 words of memory out of 3000000
  5007 multiletter control sequences out of 15000+200000
  8890 words of font info for 34 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
@@ -270,9 +270,9 @@ ic/amsfonts/cm/cmsy10.pfb><C:/Users/Nick/Desktop/old desktop/Clip/LaTeX_R_F10/M
 ikTexPortable/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Nick/Desktop/o
 ld desktop/Clip/LaTeX_R_F10/MikTexPortable/fonts/type1/public/amsfonts/symbols/
 msam10.pfb>
-Output written on geometry7.pdf (13 pages, 97885 bytes).
+Output written on geometry7.pdf (15 pages, 99064 bytes).
 PDF statistics:
- 69 PDF objects out of 1000 (max. 8388607)
+ 75 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
