@@ -52,23 +52,70 @@ Major Exercises 3, 11
 \pro{2 }This problem has five parts.  In the first part we will construct Saccheri quadrilaterals associated with any triangle $\triangle ABC$.  Then we will apply this construction.  Figure 6.15 illustrates the case where the angles of the triangle at A and B are acute;  you are invited to draw the figure when one of these angles is obtuse or right.  \\
 
 
-a. Let I,J,K be the midpoints of BC, CA, AB, respectively.  Let D, E, F, be the feet of the perpendiculars from A,B,C respectively, to $\overleftrightarrow{IJ}$ (which is called a medial line).  Prove, in any Hilbert plane, that $AD \cong CF \cong BE$, hence that $\square EDAB$ is a Saccheri quadrilateral with base ED summit AB.  \\
+a. Let I,J,K be the midpoints of BC, CA, AB, respectively.  Let D, E, F, be the feet of the perpendiculars from A,B,C respectively, to $\overleftrightarrow{IJ}$ (which is called a medial line).  
+
+
+First I want to show somewhat obvious things, because a lot of proofs that follow depend on them.
+
+Lemma 1: Prove that if E and F are distinct, then E*I*F  and if they are not then E = F= I.  
 
 \Proof
 
-By the definition of midpoint we know that $BI \cong IC$ and $CJ \cong JA$.  Also, vertical angle pairs are congruent, so $\angle BIE \cong \angle CIE$ and $\angle AJD \cong CJF$.  By SAA we know then that $\triangle BIE \cong \triangle CIF$, so $BE \cong CF$ and again by SAA we know $\triangle ADJ \cong \triangle CJF$ so $CF \cong AD$.  Hence $AD \cong BE$. 
+Note that the relationships between E,I, and F are the same as the relationships between F,J, and D (we know exactly the same information about one triplet as we know about the other).  Therefore without loss of generality we will show $E*I*F$ and we will then also know that $F*J*D$.
+
+Assume to the contrary that E*I*F is not the case, so we know that either F*E*I or E*F*I.  
+
+Then we know there is some point Z such that E*I*Z.  So we know that $\angle BIE$ and $\angle CIZ$ are vertical angles and therefore are congruent.  Suppose that $\angle BIE $ is obtuse or right.  But by Saccheri-Legendre (assuming that our Hilbert plane is Archimedean we cannot have a triangle with angle sum greater than 180. However, we know that $\angle BEI^\circ + \angle BIE^\circ + \angle EBI^\circ > 90 + 90 = 180$ as $\angle EBI^\circ > 0$. Contradiction.  So $\angle BIE$ is acute.  Therefore $\angle CIZ$ is acute and $\angle FIC \cong \angle EIC$ is obtuse.  Therefore, the triangle sum of $\triangle FIC$ is $\angle IFC^\circ + \angle FIC^\circ + \angle ICF^\circ < 90 + 90 + \angle ICF^\circ = 180$.  Contradiction (Saccheri-Legendre). Therefore it must be the case that E*I*F.  Similarly F*J*D. 
+
+
+Then suppose that E and F are distinct but $E = F \neq I$.  Then BE and FC = EC are both perpendicular to $\overleftrightarrow{ED}$ so two adjacent right angles would make a line (adjacent right angles are supplementary), so $BE$ and $EC$ are both the same line.  So $E \in \overleftrightarrow{BC}$, $I \in \overleftrightarrow{BC}$, $E \in \overleftrightarrow{ED}$, and $I \in \overleftrightarrow{ED}$, so $\overleftrightarrow{BC} = \overleftrightarrow{ED}$ as they have two points in common.  Additionally, this means that $J\in \overleftrightarrow{AC}$ and $J\in \overleftrightarrow{BC}$ so they have both J and C in common, so A,B, and C are collinear, but this cannot be the case in a triangle.  Contradiction.  Therefore if E = F, then E = F = I. 
+
+Also, if $E = I \neq F$ or $E \neq I = F$, then we again have a triangle ($\triangle EFC$) with more than 180 degrees as both the angle involving E and F are right angles. Similarly, either $F=J=D$ or 
+
+
+\QED	
+
+Lemma 2: Prove that $I*J*D$, and note the similar result $E*I*J$. 
+
+\Proof
+
+Assume to the contrary that 
 
 
 \QED
 
 
+\newpage 
+
+Prove, in any Hilbert plane, that $AD \cong CF \cong BE$, hence that $\square EDAB$ is a Saccheri quadrilateral with base ED summit AB.  \\
+
+
+\Proof
+
+First we show $CF \cong BE$\\
+
+\noindent Case 1: $E \neq F \neq I$ (the three points can form a triangle)\\
+
+By the definition of midpoint we know that $BI \cong IC$ and $CJ \cong JA$.  Also, vertical angle pairs are congruent, so $\angle BIE \cong \angle CIE$ and $\angle AJD \cong CJF$.  By SAA we know then that $\triangle BIE \cong \triangle CIF$, so $BE \cong CF$ and again by SAA we know $\triangle ADJ \cong \triangle CJF$ so $CF \cong AD$.  Hence $AD \cong BE$. \\
+
+Therefore $\square EDAB$ has two congruent opposite sides, $BE \cong AD$ and each are perpendicular to $\overleftrightarrow{ED}$, which meets our definition of a Saccheri quadrilateral. \\
+
+\noindent Case 2: $E = F = I$ (previous proof demonstrated that these are the only two possibilities)\\
+
+$BE = BI \cong IC = FC$ as I is the midpoint of BC.\\
+
+Similarly, $CF \cong AD$, so $AD \cong CF \cong BE$.
+
+\QED
+
+
+\newpage
 
 Show that a triangle and its associated Saccheri quadrilateral have equal content-- ie, that you can dissect the Saccheri quadrilateral region into polygonal pieces and then reassemble these pieces to construct the triangular region. \\
 
 \Proof
 
-Note that the Saccheri quadrilateral can obviously be cut into 3 regions, $\triangle BEI, \square BIJA$, and $\triangle AJD$.  Now we know that $\square BIJA$ is shared between the triangle and the Saccheri quadrilateral, and we know that $\triangle BEI \cong \triangle CFI$ and $\triangle ADJ \cong \triangle CFJ$.  If we dissect the Saccheri quadrilateral in this manner it is obvious we can reassemble the triangle by moving  parts into the section congruent to them. 
-
+Case 1: 
 
 \QED
 
@@ -142,7 +189,22 @@ $\Leftarrow:$  Assume $AC \cong BC$.  So $\triangle ABC$ is isosceles, so $\angl
 Also, by previous part of this problem we know that $\triangle BEI \cong \triangle CFI$ and $\triangle ADJ \cong \triangle CFJ$ so $BI \cong IC$ and $CJ \cong JA$.  Therefore since $2CI = CI + BI = BC = AC = CJ + JA = 2CJ$, we know that $CI = CJ$ so $CI \cong CJ$.  So we know that $\angle CIJ \cong \angle CJI$ as $\triangle CJI$ is isosceles. So we know that $\angle CFI \cong \angle CFJ$ since F is the foot from C to $\overleftrightarrow{ED}$.  Therefore by SAA we know that $\triangle CIF \cong \triangle CJF$. Therefore 
 $\angle ICF \cong \angle JCF$. 
 
-However we know that $\angle BCK^\circ + \angle ACK^\circ = \angle BCA^\circ$
+However we know that $\angle BCK^\circ + \angle ACK^\circ = \angle BCA^\circ$ and $\angle ICF^\circ + \angle JCF^\circ = \angle JCI^\circ = \angle BCA^\circ$.  So we know that 
+
+\begin{eqnarray*}
+2\angle BCK^\circ &=& \angle BCK^\circ + \angle BCK^\circ\\
+&=& \angle BCK^\circ + \angle ACK^\circ \\
+&=& \angle BCA^\circ \\
+&=& \angle ICF^\circ + \angle JCF^\circ\\
+&=& \angle ICF^\circ + \angle ICF^\circ\\
+&=& \angle ICF^\circ + \angle ICF^\circ\\
+&=& 2\angle ICF^\circ\\
+&=& 2\angle BCF^\circ
+\end{eqnarray*}
+
+Therefore $\angle BCF^\circ = \angle BCK^\circ$, so $\angle BCF \cong \angle BCK$ however by C4 we know there is only one ray per side of $\overleftrightarrow{BC}$ that can form this angle.  However, we have shown that I*F*J, so we know that F and J are on the same side of $\overleftrightarrow{IC}$ and similarly I and F are on the same side of $\overleftrightarrow{JC}$.        
+
+
 
 \QED
 

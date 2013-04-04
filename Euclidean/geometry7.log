@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=pdflatex 2013.1.2)  2 APR 2013 18:14
+This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=pdflatex 2013.1.2)  4 APR 2013 00:13
 entering extended mode
 **geometry7.tex
-(C:\Users\Nick\Desktop\Euclidean\geometry7.tex
+(C:\Users\Nick\Documents\GitHub\MathHW\Euclidean\geometry7.tex
 LaTeX2e <2009/09/24>
 Babel <v3.8l> and hyphenation patterns for english, dumylang, nohyphenation, ge
 rman, ngerman, german-x-2009-06-19, ngerman-x-2009-06-19, french, loaded.
@@ -132,7 +132,8 @@ File: pdftex.def 2010/02/14 v0.04n Graphics/color for pdfTeX
 ))
 \Gin@req@height=\dimen112
 \Gin@req@width=\dimen113
-) (C:\Users\Nick\Desktop\Euclidean\geometry7.aux)
+)
+(C:\Users\Nick\Documents\GitHub\MathHW\Euclidean\geometry7.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
 LaTeX Font Info:    ... okay on input line 37.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
@@ -176,71 +177,102 @@ Underfull \hbox (badness 10000) in paragraph at lines 52--53
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 55--56
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 66--67
-
- []
-
 [1
 
 {C:/Users/Nick/Desktop/old desktop/Clip/LaTeX_R_F10/MikTexPortable/pdftex/confi
 g/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 78--79
+Underfull \hbox (badness 10000) in paragraph at lines 80--81
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 82--83
+Underfull \hbox (badness 10000) in paragraph at lines 85--86
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 84--85
+Underfull \hbox (badness 10000) in paragraph at lines 87--88
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 89--90
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--92
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 93--94
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 95--96
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 103--104
 
  []
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 100--101
+Underfull \hbox (badness 10000) in paragraph at lines 114--115
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 118--119
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 120--121
 
  []
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 129--130
+Underfull \hbox (badness 10000) in paragraph at lines 136--137
+
+ []
+
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 165--166
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 131--132
+Underfull \hbox (badness 10000) in paragraph at lines 167--168
 
  []
 
-[4] [5] [6] [7] [8] [9] [10] [11] [12]
-(C:\Users\Nick\Desktop\Euclidean\geometry7.aux) ) 
+[5] [6] [7] [8] [9] [10] [11] [12] [13]
+(C:\Users\Nick\Documents\GitHub\MathHW\Euclidean\geometry7.aux) ) 
 Here is how much of TeX's memory you used:
  1793 strings out of 495285
- 22936 string characters out of 3178072
- 78505 words of memory out of 3000000
+ 23048 string characters out of 3178072
+ 79505 words of memory out of 3000000
  5007 multiletter control sequences out of 15000+200000
  8890 words of font info for 34 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 27i,14n,24p,744b,106s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/Nick/Desktop/old des
-ktop/Clip/LaTeX_R_F10/MikTexPortable/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-<C:/Users/Nick/Desktop/old desktop/Clip/LaTeX_R_F10/MikTexPortable/fonts/type1/
-public/amsfonts/cm/cmmi12.pfb><C:/Users/Nick/Desktop/old desktop/Clip/LaTeX_R_F
-10/MikTexPortable/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Nick/Deskt
-op/old desktop/Clip/LaTeX_R_F10/MikTexPortable/fonts/type1/public/amsfonts/cm/c
-msy10.pfb><C:/Users/Nick/Desktop/old desktop/Clip/LaTeX_R_F10/MikTexPortable/fo
-nts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Nick/Desktop/old desktop/Clip/
-LaTeX_R_F10/MikTexPortable/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on geometry7.pdf (12 pages, 91951 bytes).
+ 27i,14n,24p,828b,106s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/Nick
+/Desktop/old desktop/Clip/LaTeX_R_F10/MikTexPortable/fonts/type1/public/amsfont
+s/cm/cmbx12.pfb><C:/Users/Nick/Desktop/old desktop/Clip/LaTeX_R_F10/MikTexPorta
+ble/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Nick/Desktop/old deskto
+p/Clip/LaTeX_R_F10/MikTexPortable/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/
+Users/Nick/Desktop/old desktop/Clip/LaTeX_R_F10/MikTexPortable/fonts/type1/publ
+ic/amsfonts/cm/cmsy10.pfb><C:/Users/Nick/Desktop/old desktop/Clip/LaTeX_R_F10/M
+ikTexPortable/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Nick/Desktop/o
+ld desktop/Clip/LaTeX_R_F10/MikTexPortable/fonts/type1/public/amsfonts/symbols/
+msam10.pfb>
+Output written on geometry7.pdf (13 pages, 97885 bytes).
 PDF statistics:
- 65 PDF objects out of 1000 (max. 8388607)
+ 69 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
