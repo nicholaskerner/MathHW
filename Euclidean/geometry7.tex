@@ -489,29 +489,68 @@ So $\angle QMN$ and $\angle LMQ$ are supplementary, share a ray and their vertex
 
 \prob{Major Exercises 3 }
 
-Transitivity of limiting parallelism.  If $\overrightarrow{AB}$ and $\overrightarrow{CD}$ are both limiting parallel to $\overrightarrow{EF}$, then they are limiting parallel to each other. Justify the steps in the proof.  
+Transitivity of limiting parallelism.  If $\overrightarrow{AB}$ and $\overrightarrow{CD}$ are both limiting parallel to $\overrightarrow{EF}$, then they are limiting parallel to each other. Justify the steps in the proof.  \\
 
-1. $\overleftrightarrow{AB}$ and $\overleftrightarrow{CD}$ have no point in common.
+1. $\overleftrightarrow{AB}$ and $\overleftrightarrow{CD}$ have no point in common.\\
 
-2. Hence there are two cases depending on whether $\overleftrightarrow{EF}$ is between $\overleftrightarrow{AB}$ and $\overleftrightarrow{CD}$ or $\overleftrightarrow{AB}$ and $\overleftrightarrow{CD}$ are both on the same side of $\overleftrightarrow{EF}$.
+Of course what is meant by the problem statement is that the lines are distinct, so what needs to be shown here is that they do not have exactly 1 point in common (we already know that they do not have 2, as they would not be distinct).\\
 
-3. In the case where $\overleftrightarrow{EF}$ is between $\overleftrightarrow{AB}$ and $\overleftrightarrow{CD}$, let G be the intersection of AC with $\overleftrightarrow{EF}$ (see figure 6.26).  We may assume G lies on ray $\overrightarrow{EF}$; otherwise we can consider $\overrightarrow{GF}$.
+Assume to the contrary that $\overleftrightarrow{AB}$ and $\overleftrightarrow{CD}$ have a point in common, call this point X.  By exercise 6 we know we can find limiting parallels $\overrightarrow{XY} \subset \overleftrightarrow{AB}$ and $\overrightarrow{XZ} \subset \overleftrightarrow{CD}$.\\
 
-4. Any ray $\overrightarrow{AH}$ interior to $\angle GAB$ must intersect $\overrightarrow{EF}$ in a point l.
+Let V be the foot of X to $\overleftrightarrow{EF}$ (if this does not exist, then we do not have a limiting parallel ray, which would contradict exercise 6).  By exercise 6 we know that $\overrightarrow{XY}$ and $\overrightarrow{XZ}$ are limiting parallel rays to $\overrightarrow{EF}$. By proposition 6.6 we know that either they are the same ray (contradiction, problem statement) or Y and Z are on opposite sides of $\overleftrightarrow{XV}$.  Without loss of generality let E and Y be on the same side of $\overleftrightarrow{XV}$.\\
 
-5. $\overrightarrow{IH}$, lying interior to $\angle CIF$, must intersect $\overrightarrow{CD}$
 
-6. Hence any ray $\overrightarrow{AH}$ interior to $\angle CAB$ must intersect $\overrightarrow{CD}$, so $\overrightarrow{AB}$ is limiting parallel to $\overrightarrow{CD}$. 
+Note that our original limiting parallel ray was a limiting parallel to $\overrightarrow{EF}$ but it is possible that V*E*F or E=V, which would mean that if both of our limiting parallel rays $\overrightarrow{AB}$ and $\overrightarrow{CD}$ are limiting parallel to $\overrightarrow{EF}$ then our new limiting parallels $\overrightarrow{XZ}$ and $\overrightarrow{XY}$ will be limiting to $\overrightarrow{VF}$, but only if V*E*F.  Also note that if V*E*F, then any ray between $\overrightarrow{XZ}$ and $\overrightarrow{XV}$ will intersect $\overleftrightarrow{EF}$ but not $\overrightarrow{VF}$ and therefore not $\overrightarrow{EF}$.\\
+
+\begin{center}
+\includegraphics[width=3in]{limitingparallel1.png}
+\end{center}
+
+Otherwise we have the case that E*V*F.\\
+If $E\in \overrightarrow{XY}$ then $\overrightarrow{XY}$ is not a limiting parallel.  If $\overrightarrow{XY}$ is between $\overrightarrow{XV}$ and $\overrightarrow{XE}$ then by the crossbar theorem is must intersect EV so $\overrightarrow{XY}$ is not a limiting parallel.  Contradiction.\\
+
+
+
+Consider U such that $U*E*F$ so we know that $U\not \in \overrightarrow{EF}$.  So U and V are on the same side of $\overleftrightarrow{XY}$ (XY is a limiting parallel to the line U and V are on) and U and Y are on the same side of $\overleftrightarrow{XV}$ (Y and E are on the same side of it, and E and U are on the same side of it).  Therefore $\overrightarrow{XU}$ is between $\overrightarrow{XV}$ and $\overrightarrow{XY}$, so $\overrightarrow{XU}$ must intersect $\overrightarrow{EF}$, but it does not.  Contradiction.  
+
+\begin{center}
+\includegraphics[width=3in]{limitingparallel2.png}
+\end{center}
+
+
+\QED
+
+\newpage 
+
+
+2. Hence there are two cases depending on whether $\overleftrightarrow{EF}$ is between $\overleftrightarrow{AB}$ and $\overleftrightarrow{CD}$ or $\overleftrightarrow{AB}$ and $\overleftrightarrow{CD}$ are both on the same side of $\overleftrightarrow{EF}$.\\
+
+Since a line divides a plane into two half planes, either both lines can be on the same side of $\overleftrightarrow{EF}$ or on opposite sides.  If they are on the same side, $\overleftrightarrow{EF}$ and $\overleftrightarrow{AB}$ could be on the same side of $\overleftrightarrow{CD}$ or they might not be, however, these are effectively the same case as we currently know no differences between $\overleftrightarrow{AB}$ and $\overleftrightarrow{CD}$.  These leaves us with just the two mentioned cases.\\
+
+
+
+3. In the case where $\overleftrightarrow{EF}$ is between $\overleftrightarrow{AB}$ and $\overleftrightarrow{CD}$, let G be the intersection of AC with $\overleftrightarrow{EF}$ (see figure 6.26).  We may assume G lies on ray $\overrightarrow{EF}$; otherwise we can consider $\overrightarrow{GF}$.\\
+
+When we say that $\overleftrightarrow{EF}$ is between $\overleftrightarrow{AB}$ and $\overleftrightarrow{CD}$ we mean that any triplet $(X_1,X_2,X_3) \in (\overleftrightarrow{AB},\overleftrightarrow{EF},\overleftrightarrow{CD})$ has the property that 
+
+
+
+
+4. Any ray $\overrightarrow{AH}$ interior to $\angle GAB$ must intersect $\overrightarrow{EF}$ in a point l.\\
+
+5. $\overrightarrow{IH}$, lying interior to $\angle CIF$, must intersect $\overrightarrow{CD}$\\
+
+6. Hence any ray $\overrightarrow{AH}$ interior to $\angle CAB$ must intersect $\overrightarrow{CD}$, so $\overrightarrow{AB}$ is limiting parallel to $\overrightarrow{CD}$. \\
 
 do we need to do the sub lemma? Gasp!
 
-8. Then AE intersects $\overleftrightarrow{CD}$ in a point G, which we may assume lies on ray $\overrightarrow{CD}$. 
+8. Then AE intersects $\overleftrightarrow{CD}$ in a point G, which we may assume lies on ray $\overrightarrow{CD}$. \\
 
-9. Any ray $\overrightarrow{AH}$ interior to $\angle GAB$ intersects $\overrightarrow{EG}$ in a point I.
+9. Any ray $\overrightarrow{AH}$ interior to $\angle GAB$ intersects $\overrightarrow{EG}$ in a point I.\\
 
-10.  Since $\overrightarrow{CD}$ enters $\triangle AEI$ at G and does not intersect side EI, it must intersect AI.
+10.  Since $\overrightarrow{CD}$ enters $\triangle AEI$ at G and does not intersect side EI, it must intersect AI.\\
 
-11. Therefore, $\overrightarrow{CD}$ is limiting parallel to $\overrightarrow{AB}$. 
+11. Therefore, $\overrightarrow{CD}$ is limiting parallel to $\overrightarrow{AB}$. \\
 
 
 
