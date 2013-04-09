@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=pdflatex 2013.1.2)  7 APR 2013 02:50
+This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=pdflatex 2013.1.2)  8 APR 2013 00:02
 entering extended mode
 **geometry7.tex
 (C:\Users\Nick\Documents\GitHub\MathHW\Euclidean\geometry7.tex
@@ -374,31 +374,124 @@ Underfull \hbox (badness 10000) in paragraph at lines 470--471
 File: perpendiculars.png Graphic file (type png)
 
 <use perpendiculars.png> [16 <C:/Users/Nick/Documents/GitHub/MathHW/Euclidean/p
-erpendiculars.png (PNG copy)>] [17] [18]
-(C:\Users\Nick\Documents\GitHub\MathHW\Euclidean\geometry7.aux) ) 
+erpendiculars.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 492--493
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 494--495
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 496--497
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 498--499
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 500--501
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 503--504
+
+ []
+
+<limitingparallel1.png, id=61, 962.09438pt x 447.92343pt>
+File: limitingparallel1.png Graphic file (type png)
+
+<use limitingparallel1.png>
+Underfull \hbox (badness 10000) in paragraph at lines 509--511
+
+ []
+
+[17 <C:/Users/Nick/Documents/GitHub/MathHW/Euclidean/limitingparallel1.png (PNG
+ copy)>] <limitingparallel2.png, id=65, 962.09438pt x 447.92343pt>
+File: limitingparallel2.png Graphic file (type png)
+
+<use limitingparallel2.png> [18 <C:/Users/Nick/Documents/GitHub/MathHW/Euclidea
+n/limitingparallel2.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 526--527
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 528--529
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 532--533
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 534--535
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 536--537
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 538--539
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 542--543
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 544--545
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 546--547
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 548--549
+
+ []
+
+[19] [20] (C:\Users\Nick\Documents\GitHub\MathHW\Euclidean\geometry7.aux) ) 
 Here is how much of TeX's memory you used:
- 1799 strings out of 495285
- 23161 string characters out of 3178072
+ 1809 strings out of 495285
+ 23409 string characters out of 3178072
  86505 words of memory out of 3000000
- 5011 multiletter control sequences out of 15000+200000
+ 5019 multiletter control sequences out of 15000+200000
  8890 words of font info for 34 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  27i,14n,24p,923b,165s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/Nick
-/Desktop/old desktop/Clip/LaTeX_R_F10/MikTexPortable/fonts/type1/public/amsfont
-s/cm/cmbx12.pfb><C:/Users/Nick/Desktop/old desktop/Clip/LaTeX_R_F10/MikTexPorta
-ble/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Nick/Desktop/old deskto
-p/Clip/LaTeX_R_F10/MikTexPortable/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:
-/Users/Nick/Desktop/old desktop/Clip/LaTeX_R_F10/MikTexPortable/fonts/type1/pub
-lic/amsfonts/cm/cmr12.pfb><C:/Users/Nick/Desktop/old desktop/Clip/LaTeX_R_F10/M
-ikTexPortable/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Nick/Desktop/ol
-d desktop/Clip/LaTeX_R_F10/MikTexPortable/fonts/type1/public/amsfonts/cm/cmsy10
-.pfb><C:/Users/Nick/Desktop/old desktop/Clip/LaTeX_R_F10/MikTexPortable/fonts/t
-ype1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Nick/Desktop/old desktop/Clip/LaTeX
-_R_F10/MikTexPortable/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on geometry7.pdf (18 pages, 138189 bytes).
+<C:/
+Users/Nick/Desktop/old desktop/Clip/LaTeX_R_F10/MikTexPortable/fonts/type1/publ
+ic/amsfonts/cm/cmbx12.pfb><C:/Users/Nick/Desktop/old desktop/Clip/LaTeX_R_F10/M
+ikTexPortable/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Nick/Desktop/
+old desktop/Clip/LaTeX_R_F10/MikTexPortable/fonts/type1/public/amsfonts/cm/cmmi
+12.pfb><C:/Users/Nick/Desktop/old desktop/Clip/LaTeX_R_F10/MikTexPortable/fonts
+/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Nick/Desktop/old desktop/Clip/LaT
+eX_R_F10/MikTexPortable/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Nick/
+Desktop/old desktop/Clip/LaTeX_R_F10/MikTexPortable/fonts/type1/public/amsfonts
+/cm/cmsy10.pfb><C:/Users/Nick/Desktop/old desktop/Clip/LaTeX_R_F10/MikTexPortab
+le/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Nick/Desktop/old desktop/
+Clip/LaTeX_R_F10/MikTexPortable/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+
+Output written on geometry7.pdf (20 pages, 160420 bytes).
 PDF statistics:
- 93 PDF objects out of 1000 (max. 8388607)
+ 102 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
