@@ -439,7 +439,7 @@ Consider $\triangle UQT$. So since we know that $\overrightarrow{SZ}$ intersects
 
 
 
-\prob{8 } Let $\overrightarrow{PX}$ be the right limiting parallel ray to l through P and let Q and X' be the feet of the perpendiculars from P and X, respectively, to l (Figure 6.19).  Prove that PQ > XX'. (Hint: Use Exercise 6 to show that $\angle X'XY$ is acute and that $\angle X'XP$ is obtuse, so that Proposition 4.13, Chapter 4, can be applied to $\square PQX'X$.) This exercise shows that the distance from X to l decreases as X recedes from P along a limiting parallel ray.  In fact, on e can prove that the distance from X to l approaches zero (see Major exercise 11).
+\prob{8 } Let $\overrightarrow{PX}$ be the right limiting parallel ray to l through P and let Q and X' be the feet of the perpendiculars from P and X, respectively, to l (Figure 6.19).  Prove that $PQ > XX'$. (Hint: Use Exercise 6 to show that $\angle X'XY$ is acute and that $\angle X'XP$ is obtuse, so that Proposition 4.13, Chapter 4, can be applied to $\square PQX'X$.) This exercise shows that the distance from X to l decreases as X recedes from P along a limiting parallel ray.  In fact, on e can prove that the distance from X to l approaches zero (see Major exercise 11).
 
 \Proof
 
@@ -520,7 +520,7 @@ Consider U such that $U*E*F$ so we know that $U\not \in \overrightarrow{EF}$.  S
 
 \QED
 
-\newpage 
+
 
 
 2. Hence there are two cases depending on whether $\overleftrightarrow{EF}$ is between $\overleftrightarrow{AB}$ and $\overleftrightarrow{CD}$ or $\overleftrightarrow{AB}$ and $\overleftrightarrow{CD}$ are both on the same side of $\overleftrightarrow{EF}$.\\
@@ -531,20 +531,101 @@ Since a line divides a plane into two half planes, either both lines can be on t
 
 3. In the case where $\overleftrightarrow{EF}$ is between $\overleftrightarrow{AB}$ and $\overleftrightarrow{CD}$, let G be the intersection of AC with $\overleftrightarrow{EF}$ (see figure 6.26).  We may assume G lies on ray $\overrightarrow{EF}$; otherwise we can consider $\overrightarrow{GF}$.\\
 
-When we say that $\overleftrightarrow{EF}$ is between $\overleftrightarrow{AB}$ and $\overleftrightarrow{CD}$ we mean that any triplet $(X_1,X_2,X_3) \in (\overleftrightarrow{AB},\overleftrightarrow{EF},\overleftrightarrow{CD})$ has the property that 
+When we say that $\overleftrightarrow{EF}$ is between $\overleftrightarrow{AB}$ and $\overleftrightarrow{CD}$ we mean that any triplet $(X_1,X_2,X_3) \in (\overleftrightarrow{AB},\overleftrightarrow{EF},\overleftrightarrow{CD})$ has the property that $X_1$ and $X_2$ are on opposite sides of $\overleftrightarrow{EF}$ so $X_1 X_2$ intersects this line. \\
+
+If it does not intersect $\overrightarrow{EF}$ then we can consider $\overrightarrow{GF}$ since we know that the two lines will be limiting parallel rays to $\overrightarrow{EF} \subset \overrightarrow{GF}$ either way.\\
 
 
 
 
 4. Any ray $\overrightarrow{AH}$ interior to $\angle GAB$ must intersect $\overrightarrow{EF}$ in a point l.\\
 
+Let Q be the foot of A on $\overleftrightarrow{EF}$, so by definition of limiting parallel ray we know that $Q \in \overrightarrow{EF}$.  
+
+\noindent Case 1: Q = G\\
+
+Definition of limiting parallel ray. \\
+
+\noindent Case 2: G is interior to $\angle BAQ$.\\
+
+So we know that G and Q are on the same side of $\overleftrightarrow{AB}$, and G and H are on the same side of $\overleftrightarrow{AB}$, so H and Q are on the same side of $\overleftrightarrow{AB}$.  Also, we know that G and B are on the same side of $\overleftrightarrow{AQ}$ and that H and G are on the same side of $\overleftrightarrow{AQ}$, so H and B are on the same side of $\overleftrightarrow{AQ}$.  Therefore H is interior to $\angle QAB$, so by definition of limiting parallel ray, $\overrightarrow{AH}$ must intersect $\overrightarrow{EF}$. \\
+
+\noindent Case 3: G is not interior to $\angle BAQ$. \\
+
+So G is interior to $\angle QAG$, so $\overrightarrow{AH}$ is between $\overrightarrow{AG}$ and $\overrightarrow{AQ}$.  Consider $\triangle AQG$.  By the crossbar theorem, we know that $\overrightarrow{AH}$ intersects GQ, so $\overrightarrow{AH}$ intersects $\overrightarrow{EF}$ as $G\in \overrightarrow{EF}$ (part 3) and $Q\in \overrightarrow{EF}$ by definition of limiting parallel ray.  \\
+
+
+
+
 5. $\overrightarrow{IH}$, lying interior to $\angle CIF$, must intersect $\overrightarrow{CD}$\\
+
+Note for $\overrightarrow{IH}$ to lie interior to $\angle CIF$, then it must be true that H and C lie on the same side of $\overleftrightarrow{IF}$, which was assumed in part 4 but not explicitly stated. Otherwise, we are overloading the meaning of point H.  This does not effect the validity of the proof as given H on the wrong side, we can find I and then choose a new point $H_2$ along that ray so that this property holds.\\
+
+Note that $\overleftrightarrow{IH}$ is composed of $\overrightarrow{IA}$ and $\overrightarrow{IH}$. Also note that we are still in the case where $\overleftrightarrow{AB}$ and $\overleftrightarrow{CD}$ are on opposite sides of $\overleftrightarrow{EF}$, so all of $\overrightarrow{IA}$ (except I) is on the side of $\overleftrightarrow{EF}$ opposite $\overleftrightarrow{CD}$.  \\
+
+Assume to the contrary that $\overleftrightarrow{IH}$ ($ \overrightarrow{IH}$) is parallel to $\overleftrightarrow{CD}$. 
+
+
+
 
 6. Hence any ray $\overrightarrow{AH}$ interior to $\angle CAB$ must intersect $\overrightarrow{CD}$, so $\overrightarrow{AB}$ is limiting parallel to $\overrightarrow{CD}$. \\
 
-do we need to do the sub lemma? Gasp!
+Note that $\overrightarrow{AH}$ was an arbitrary ray interior to $\angle GAB = \angle CAB$.  This arbitrariness is all that is needed to be stated to satisfy the definition of limiting parallels.\\
+
+Prove: If $\overleftrightarrow{AB}$ and $\overleftrightarrow{CD}$ are both on the same side of $\overleftrightarrow{EF}$, then one of them, say $\overleftrightarrow{CD}$ is between $\overleftrightarrow{AB}$ and $\overleftrightarrow{EF}$.
+
+7.1 It suffices to prove there is a line transversal to the three rays $\overrightarrow{AB}$, $\overrightarrow{CD}$, $\overrightarrow{EF}$.  \\
+
+Suppose we had line that was a transversal to all three rays, $\overrightarrow{AB}$, $\overrightarrow{CD}$, $\overrightarrow{EF}$ Such that $X_1 *X_2 * X_3$ where $X_1, X_2$, and $X_3$ lie on the three rays.  Then we know that $X_1$ and $X_3$ lie on opposite sides of the line containing the ray that contains $X_2$ (call it l).  Since the lines are parallel we know that all points on the line containing $X_1$ (call it m) are on the same side of l while all point on the third line (call it n) lie on the opposite side.  Therefore if we have 3 lines which are parallel to each other and a transversal to the three lines (or rays) then one of the lines must be in between the other two (So if two lines are on the same side of the third line, then one of the first two must be between the other and the third).\\
+
+
+
+7.2 In the case where A and F are on the same side of $\overleftrightarrow{EC}$, then the ray $\overrightarrow{EA}$ is interior to $\angle E$ (it was left rather uncertain what this angle was, so based on what I have gathered $\angle E = \angle CEF$.  \\
+
+Since $\overleftrightarrow{AB}$ and $\overleftrightarrow{CD}$ are both on the same side of $\overleftrightarrow{EF}$, then we know that A and C are on the same side of $\overleftrightarrow{EF}$, so we know that A is interior to $\angle CEF$, so $\overrightarrow{EA}$ is interior to $\angle E = \angle CEF$.\\
+
+
+
+7.3 Then $\overrightarrow{EA}$ intersects $\overrightarrow{CD}$, by symmetry.\\
+
+Since we have two rays which are limiting parallels of $\overrightarrow{EF}$, we know that they have to go in ``the same direction'' as $\overleftrightarrow{EF}$ (similar argument made in part 1 of the theorem).  So F and D are on the same side of $\overleftrightarrow{EC}$ and we already know that C and D are on the same side of $\overleftrightarrow{EF}$.  
+
+
+
+7.4 So $\overleftrightarrow{EA}$ is our transversal.\\
+
+$\overleftrightarrow{EA}$ has points E and A which are on opposite sides of $\overleftrightarrow{CD}$ in such a way that EA intersects $\overrightarrow{CD}$.  Therefore we have a transversal that cuts all three rays.\\
+
+
+7.5 In the case where A and F are on opposite sides of $\overleftrightarrow{EC}$, let G be the point at which AF meets $\overleftrightarrow{EC}$ (see Figure 6.27)\\
+
+If they are on opposite sides, by definition we know that AF intersects $\overleftrightarrow{EC}$.  \\
+
+
+
+7.6 Choosing H such that E*F*H, we have $\overrightarrow{FH} | \overrightarrow{AB}$. \\ 
+
+
+
+
+7.7 $\angle HFG > \angle E$. \\
+
+7.8 Therefore there is a ray $\overrightarrow{FI}$ interior to $\angle HFA = \angle HFG$ such that $\angle HFI \cong \angle E$.  \\
+
+7.9 $\overrightarrow{FI}$ meets $\overrightarrow{AB}$ at a point J. \\
+
+7.10 $\overleftrightarrow{FJ} \parallel \overleftrightarrow{EC}$\\
+
+7.11 $\overleftrightarrow{EC}$ intersects side AF and does not intersect side FJ of $\triangle AJF$. \\
+
+7.12 Hence $\overleftrightarrow{EC}$ intersects AJ and is our transversal.\\
+
+\QED
+
 
 8. Then AE intersects $\overleftrightarrow{CD}$ in a point G, which we may assume lies on ray $\overrightarrow{CD}$. \\
+
+
 
 9. Any ray $\overrightarrow{AH}$ interior to $\angle GAB$ intersects $\overrightarrow{EG}$ in a point I.\\
 
