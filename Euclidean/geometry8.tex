@@ -1,0 +1,96 @@
+%Latex2e file
+\documentclass[12pt,letterpaper]{article}
+%\renewcommand{\arraystretch}{2}
+%\input{\scrload.tex}
+\setlength{\textwidth}{6.5in}
+\setlength{\textheight}{8.6in}
+
+\setlength{\oddsidemargin}{-.25in}
+\setlength{\evensidemargin}{-.25in}
+\setlength{\topmargin}{-.25in}
+\pagestyle{empty}
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+
+\newcommand{\R}{\ensuremath{{\mathbb{R}}}}
+\newcommand{\Z}{\ensuremath{{\mathbb{Z}}}}
+\newcommand{\Q}{\ensuremath{{\mathbb{Q}}}}
+\newcommand{\N}{\ensuremath{{\mathbb{N}}}}
+\newcommand{\C}{\ensuremath{{\mathbb{C}}}}
+\newcommand{\Proof}{\noindent {\bf Proof: }}
+\newcommand{\QED}{\begin{flushright}QED\end{flushright}}
+\newcommand{\Refl}{{\bf Reflexive: }}
+\newcommand{\Symm}{{\bf Symmetric: }}
+\newcommand{\Tran}{{\bf Transitive: }}
+\newcommand{\ep}{\varepsilon}
+\newcommand{\ri}{\right|}
+\newcommand{\lef}{\left|}
+\newcommand{\toR}{\to \R}
+\newcommand{\fancy}[1]{#1_{\text{fancy}}}
+\newcommand{\pro}[1]{\noindent {\bf #1}}
+\newcommand{\prob}[1]{\newpage\noindent {\bf #1}}
+\newcommand{\bacon}{\approx}
+
+   
+\begin{document}
+\begin{flushright}
+Nick Kerner
+
+Homework 8
+
+Chapter 6: 9
+
+Dr Frey's Bonus but required fun question
+
+Chapter 7: K11, K20
+
+\end{flushright}
+\begin{center}
+\large{Geometry}\\
+\end{center}
+
+\pro{Chapter 6: problem 9 }
+
+Given $X\neq P $ on l, by proposition 6.6 we know there are two limiting parallel rays to l emanating from P.  Choose the one on the same side of $\overleftrightarrow{PQ}$ as X and drop a perpendicular from X to our limiting parallel ray and call the foot Y.   Know we know that $\overrightarrow{PY}$ is interior to $\angle QPX$ ($\overrightarrow{PY}\neq \overrightarrow{PX}$ as limiting parallel rays cannot have a common perpendicular to their respective line, so XY is a segment not a point). \\
+
+Case 1: $\overrightarrow{PY}$ is interior to $\angle XPX'$\\
+
+Then by crossbar theorem we know that $\overrightarrow{PY}$ must intersect $XX'$. \\
+
+Case 2: $\overrightarrow{PY} = \overrightarrow{PX'}$\\
+
+Our limiting parallel cannot intersect l.  Contradiction.\\
+
+Case 3: $\overrightarrow{PY}$ is interior to $\angle QPX'$.\\
+
+By crossbar theorem, $\overrightarrow{PY}$ intersects $QX'$, but our limiting parallel cannot intersect l.  Contradiction.\\
+
+Therefore we know that $\overrightarrow{PY}$ intersects $XX'$ (not at an endpoint as it would be the parallel with common perpendicular to $l'$ or it would intersect $l'$) call this point Z.  \\
+
+Case 1: Y = Z.\\
+
+$XY = XZ$, clearly. \\
+
+Case 2: $Y\neq Z$.\\
+
+Consider $\triangle XYZ$.  We know that $\angle XYZ$ is a right angle, so its measure is $90^\circ$, so since we are in hyperbolic a triangle's angle sum must be less than 180, so both other angles have measures less than $90^\circ$.  So we know by proposition 4.5 that since $\angle XYZ > \angle XZY$ then $XZ > XY$.\\
+
+Hence $XZ \geq XY$.\\
+
+
+
+By Aristotle's axiom, given any segment AB, there is some X with 
+
+
+
+\prob{Dr Frey's Bonus but required fun question }
+
+\prob{Chapter 7: K11 }
+
+\prob{Chapter 7: K20 }
+
+
+
+\end{document}
