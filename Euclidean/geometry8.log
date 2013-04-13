@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=pdflatex 2013.1.2)  12 APR 2013 19:59
+This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=pdflatex 2013.1.2)  12 APR 2013 21:13
 entering extended mode
 **geometry8.tex
 (C:\Users\Nick\Documents\GitHub\MathHW\Euclidean\geometry8.tex
@@ -245,29 +245,52 @@ Underfull \hbox (badness 10000) in paragraph at lines 82--83
 
  []
 
-[2] [3] [4] [5] [6] [7]
-(C:\Users\Nick\Documents\GitHub\MathHW\Euclidean\geometry8.aux) ) 
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 103--104
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 105--106
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 118--119
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 121--122
+
+ []
+
+[3] [4] <klein2.png, id=20, 697.10437pt x 773.89125pt>
+File: klein2.png Graphic file (type png)
+ <use klein2.png>
+[5 <C:/Users/Nick/Documents/GitHub/MathHW/Euclidean/klein2.png (PNG copy)>]
+[6] [7] [8] [9] (C:\Users\Nick\Documents\GitHub\MathHW\Euclidean\geometry8.aux)
+ ) 
 Here is how much of TeX's memory you used:
- 1793 strings out of 495285
- 23048 string characters out of 3178072
+ 1799 strings out of 495285
+ 23121 string characters out of 3178072
  78505 words of memory out of 3000000
- 5007 multiletter control sequences out of 15000+200000
+ 5011 multiletter control sequences out of 15000+200000
  8890 words of font info for 34 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 27i,14n,24p,680b,149s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/Nick
-/Desktop/old desktop/Clip/LaTeX_R_F10/MikTexPortable/fonts/type1/public/amsfont
-s/cm/cmbx12.pfb><C:/Users/Nick/Desktop/old desktop/Clip/LaTeX_R_F10/MikTexPorta
-ble/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Nick/Desktop/old deskto
-p/Clip/LaTeX_R_F10/MikTexPortable/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/
-Users/Nick/Desktop/old desktop/Clip/LaTeX_R_F10/MikTexPortable/fonts/type1/publ
-ic/amsfonts/cm/cmsy10.pfb><C:/Users/Nick/Desktop/old desktop/Clip/LaTeX_R_F10/M
-ikTexPortable/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Nick/Desktop/o
-ld desktop/Clip/LaTeX_R_F10/MikTexPortable/fonts/type1/public/amsfonts/symbols/
-msam10.pfb>
-Output written on geometry8.pdf (7 pages, 77433 bytes).
+ 27i,14n,24p,680b,165s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/Nick/Desktop/old desktop/Clip/LaTeX_R_F10/MikTexPortable/fonts/type
+1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Nick/Desktop/old desktop/Clip/LaTeX_R
+_F10/MikTexPortable/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Nick/De
+sktop/old desktop/Clip/LaTeX_R_F10/MikTexPortable/fonts/type1/public/amsfonts/c
+m/cmr12.pfb><C:/Users/Nick/Desktop/old desktop/Clip/LaTeX_R_F10/MikTexPortable/
+fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Nick/Desktop/old desktop/Cl
+ip/LaTeX_R_F10/MikTexPortable/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/User
+s/Nick/Desktop/old desktop/Clip/LaTeX_R_F10/MikTexPortable/fonts/type1/public/a
+msfonts/symbols/msam10.pfb>
+Output written on geometry8.pdf (9 pages, 90784 bytes).
 PDF statistics:
- 50 PDF objects out of 1000 (max. 8388607)
+ 57 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
