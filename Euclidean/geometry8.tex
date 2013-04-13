@@ -44,7 +44,7 @@ Chapter 6: 9
 
 Dr Frey's Bonus but required fun question
 
-Chapter 7: K11, K20
+Chapter 7: K2, K3, K5
 
 \end{flushright}
 \begin{center}
@@ -53,7 +53,7 @@ Chapter 7: K11, K20
 
 \pro{Chapter 6: problem 9 }
 
-Given $X\neq P $ on l, by proposition 6.6 we know there are two limiting parallel rays to l emanating from P.  Choose the one on the same side of $\overleftrightarrow{PQ}$ as X and drop a perpendicular from X to our limiting parallel ray and call the foot Y.   Know we know that $\overrightarrow{PY}$ is interior to $\angle QPX$ ($\overrightarrow{PY}\neq \overrightarrow{PX}$ as limiting parallel rays cannot have a common perpendicular to their respective line, so XY is a segment not a point). \\
+Given $X\neq P $ on l, by proposition 6.6 we know there are two limiting parallel rays to $l'$ emanating from P (on opposite sides of $\overleftrightarrow{PQ}$.  Choose the one on the same side of $\overleftrightarrow{PQ}$ as X and drop a perpendicular from X to our limiting parallel ray and call the foot Y.   Know we know that $\overrightarrow{PY}$ is interior to $\angle QPX$ ($\overrightarrow{PY}\neq \overrightarrow{PX}$ as limiting parallel rays cannot have a common perpendicular to their respective line by Hilbert's Hyperbolic axiom of parallels, so XY is a segment not a point). \\
 
 Case 1: $\overrightarrow{PY}$ is interior to $\angle XPX'$\\
 
@@ -61,11 +61,11 @@ Then by crossbar theorem we know that $\overrightarrow{PY}$ must intersect $XX'$
 
 Case 2: $\overrightarrow{PY} = \overrightarrow{PX'}$\\
 
-Our limiting parallel cannot intersect l.  Contradiction.\\
+Our limiting parallel cannot intersect $l'$.  Contradiction.\\
 
 Case 3: $\overrightarrow{PY}$ is interior to $\angle QPX'$.\\
 
-By crossbar theorem, $\overrightarrow{PY}$ intersects $QX'$, but our limiting parallel cannot intersect l.  Contradiction.\\
+By crossbar theorem, $\overrightarrow{PY}$ intersects $QX'$, but our limiting parallel cannot intersect $l'$.  Contradiction.\\
 
 Therefore we know that $\overrightarrow{PY}$ intersects $XX'$ (not at an endpoint as it would be the parallel with common perpendicular to $l'$ or it would intersect $l'$) call this point Z.  \\
 
@@ -79,17 +79,80 @@ Consider $\triangle XYZ$.  We know that $\angle XYZ$ is a right angle, so its me
 
 Hence $XZ \geq XY$.\\
 
+To use Aristotle's axiom, we must show that $\angle XPY$ is acute. Now we know that $\angle QPY$ is acute (proposition 6.6) and we know that it is interior to $\angle QPX$ which is right, so by angle subtraction we know that $\angle XPY$ is acute. \\
 
+By Aristotle's axiom, given any segment AB (A on l, B on $\overrightarrow{PY}$), there is some X with foot Y such that $XY > AB$.  So we know by segment addition that $XX' > XZ \geq XY > AB$. 
 
-By Aristotle's axiom, given any segment AB, there is some X with 
+\QED 
 
 
 
 \prob{Dr Frey's Bonus but required fun question }
 
-\prob{Chapter 7: K11 }
+%AMN is not similar to ABC
+\Proof
 
-\prob{Chapter 7: K20 }
+Assume to the contrary that $\delta (AMN) = \delta (ABC)$. By proposition 6.1 we know that $\delta (ABC) = \delta(MCB) + \delta (MCA)$.  Additionally we know that $\delta (MCA) = \delta (MNC) + \delta (AMN)$, so we know that $\delta (ABC) = \delta(MCB) + \delta (MCA) = \delta(MCB) + (\delta (MNC) + \delta (AMN)) = \delta(MCB) + \delta (MNC) + \delta (ABC)$.  Therefore $\delta (MCB) + \delta (MNC) = 0$ so $\delta (MCB)= 0$ and $\delta (MNC) = 0$.  Contradiction.  Hence $\triangle AMN$ and $\triangle ABC$ cannot be similar. 
+
+\QED
+
+
+%MN \not \cong BL
+\Proof
+
+Assume to the contrary that $MN \cong BL$.  Choose D such that $M*N*D$ and $ND \cong MN$. So $\angle CND$ and $\angle MNA$ are vertical angles, $MN\cong ND$ and $AN \cong NC$ so by SAS we know that $\triangle ANM \cong \triangle CND$.
+
+So we know that $BM \cong MA \cong DC$
+
+
+Additionally we know that 
+
+\begin{eqnarray*}
+MD &=& MN + ND \\
+&\cong & MN + MN \\
+&\cong & BL + BL \\
+&\cong & BL + LC\\
+&=& BC
+\end{eqnarray*}
+
+and $MC \cong MC$ so by SSS we know that $\triangle MBC \cong \triangle DCM$.
+
+
+Finally we know that $\angle BMC^\circ + \angle CMD^\circ + \angle DMA^\circ = 180$ as they make a straight line.  So (substitutions are either renaming angles or derived from congruent triangles).
+
+\begin{eqnarray*}
+180 &=& \angle BMC^\circ + \angle CMD^\circ + \angle DMA^\circ\\
+&=& \angle BMC^\circ + \angle CMD^\circ + \angle DMA^\circ\\
+&=& \angle MCD^\circ + \angle CMD^\circ + \angle DMA^\circ\\
+&=& (\angle MCN^\circ + \angle NCD^\circ) + \angle CMD^\circ + \angle DMA^\circ\\
+&=& \angle MCN^\circ + \angle NAM^\circ + \angle CMD^\circ + \angle DMA^\circ\\
+&=& \angle NAM^\circ + \angle MCN^\circ + \angle CMD^\circ + \angle DMA^\circ\\
+&=& \angle NAM^\circ + \angle MCN^\circ + \angle MCB^\circ + \angle DMA^\circ\\
+&=& \angle NAM^\circ + (\angle MCN^\circ + \angle MCB^\circ) + \angle DMA^\circ\\
+&=& \angle NAM^\circ + \angle NCB^\circ + \angle DMA^\circ\\
+&=& \angle CAB^\circ + \angle ACB^\circ + \angle DMA^\circ\\
+&=& \angle CAB^\circ + \angle ACB^\circ + \angle MDC^\circ\\
+&=& \angle CAB^\circ + \angle ACB^\circ + \angle CBM^\circ\\
+&=& \angle CAB^\circ + \angle ACB^\circ + \angle CBA^\circ
+\end{eqnarray*}
+
+So $\delta (ABC) = 0$.  Contradiction.
+
+
+\QED
+
+
+
+
+
+\prob{Chapter 7: K2 }
+
+
+
+
+\prob{Chapter 7: K3 }
+
+\prob{Chapter 7: K5 }
 
 
 
