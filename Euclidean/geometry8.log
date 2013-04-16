@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=pdflatex 2013.1.2)  12 APR 2013 21:13
+This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=pdflatex 2013.1.2)  16 APR 2013 04:20
 entering extended mode
 **geometry8.tex
 (C:\Users\Nick\Documents\GitHub\MathHW\Euclidean\geometry8.tex
@@ -161,24 +161,19 @@ LaTeX Font Info:    ... okay on input line 37.
 \MPnumerator=\count104
 \everyMPtoPDFconversion=\toks21
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 56.
+LaTeX Font Info:    Try loading font information for U+msa on input line 54.
 
 ("C:\Users\Nick\Desktop\old desktop\Clip\LaTeX_R_F10\MikTexPortable\tex\latex\a
 msfonts\umsa.fd"
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 56.
+LaTeX Font Info:    Try loading font information for U+msb on input line 54.
 
 ("C:\Users\Nick\Desktop\old desktop\Clip\LaTeX_R_F10\MikTexPortable\tex\latex\a
 msfonts\umsb.fd"
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
-Underfull \hbox (badness 10000) in paragraph at lines 56--57
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 58--59
+Underfull \hbox (badness 10000) in paragraph at lines 54--55
 
  []
 
@@ -237,21 +232,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 80--81
 
  []
 
-[1
 
-{C:/Users/Nick/Desktop/old desktop/Clip/LaTeX_R_F10/MikTexPortable/pdftex/confi
-g/pdftex.map}]
 Underfull \hbox (badness 10000) in paragraph at lines 82--83
 
  []
 
-[2]
-Underfull \hbox (badness 10000) in paragraph at lines 103--104
+[1
+
+{C:/Users/Nick/Desktop/old desktop/Clip/LaTeX_R_F10/MikTexPortable/pdftex/confi
+g/pdftex.map}]
+Underfull \hbox (badness 10000) in paragraph at lines 84--85
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 105--106
+Underfull \hbox (badness 10000) in paragraph at lines 86--87
+
+ []
+
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 102--103
 
  []
 
@@ -261,36 +261,240 @@ Underfull \hbox (badness 10000) in paragraph at lines 118--119
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 121--122
+Underfull \hbox (badness 10000) in paragraph at lines 120--121
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--134
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 136--137
 
  []
 
 [3] [4] <klein2.png, id=20, 697.10437pt x 773.89125pt>
 File: klein2.png Graphic file (type png)
  <use klein2.png>
-[5 <C:/Users/Nick/Documents/GitHub/MathHW/Euclidean/klein2.png (PNG copy)>]
-[6] [7] [8] [9] (C:\Users\Nick\Documents\GitHub\MathHW\Euclidean\geometry8.aux)
- ) 
+Underfull \hbox (badness 10000) in paragraph at lines 173--174
+
+ []
+
+<klein2b.png, id=21, 520.19344pt x 451.6875pt>
+File: klein2b.png Graphic file (type png)
+ <use klein2b.png>
+Underfull \hbox (badness 10000) in paragraph at lines 180--181
+
+ []
+
+[5 <C:/Users/Nick/Documents/GitHub/MathHW/Euclidean/klein2.png (PNG copy)> <C:/
+Users/Nick/Documents/GitHub/MathHW/Euclidean/klein2b.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 184--185
+
+ []
+
+<Threepar.png, id=25, 459.21562pt x 405.76593pt>
+File: Threepar.png Graphic file (type png)
+ <use Threepar.png> [6 <C:/Users/Nick/Documents/GitHub/MathHW/Euclidean/Threepa
+r.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 193--194
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 195--196
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 197--198
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 199--200
+
+ []
+
+[7]
+Underfull \hbox (badness 10000) in paragraph at lines 203--204
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 206--207
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 208--209
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 210--211
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 212--213
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 215--216
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 217--218
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 220--221
+
+ []
+
+
+Overfull \hbox (0.59694pt too wide) in paragraph at lines 222--223
+[]\OT1/cmr/m/n/12 Therefore, since a tan-gent ray em-a-nat-ing from $\OML/cmm/m
+/it/12 M[]$ \OT1/cmr/m/n/12 can-not in-ter-sect a ver-tex of $\OMS/cmsy/m/n/12 
+4\OML/cmm/m/it/12 L[]L[]P\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 l\OT1/cmr/m/n/12 )$.
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 222--223
+
+ []
+
+[8]
+Underfull \hbox (badness 10000) in paragraph at lines 224--225
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 226--227
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 228--229
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 230--231
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 232--233
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 237--238
+
+ []
+
+[9]
+Underfull \hbox (badness 10000) in paragraph at lines 246--247
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 248--249
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 250--251
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 252--253
+
+ []
+
+[10]
+Underfull \hbox (badness 10000) in paragraph at lines 258--259
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 260--261
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 266--267
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 268--269
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 270--271
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 274--275
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 277--278
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 279--280
+
+ []
+
+[11]
+Underfull \hbox (badness 10000) in paragraph at lines 291--292
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 293--294
+
+ []
+
+[12] (C:\Users\Nick\Documents\GitHub\MathHW\Euclidean\geometry8.aux) ) 
 Here is how much of TeX's memory you used:
- 1799 strings out of 495285
- 23121 string characters out of 3178072
- 78505 words of memory out of 3000000
- 5011 multiletter control sequences out of 15000+200000
- 8890 words of font info for 34 fonts, out of 3000000 for 9000
+ 1811 strings out of 495285
+ 23295 string characters out of 3178072
+ 79505 words of memory out of 3000000
+ 5020 multiletter control sequences out of 15000+200000
+ 9237 words of font info for 35 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 27i,14n,24p,680b,165s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/Nick/Desktop/old desktop/Clip/LaTeX_R_F10/MikTexPortable/fonts/type
-1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Nick/Desktop/old desktop/Clip/LaTeX_R
-_F10/MikTexPortable/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Nick/De
-sktop/old desktop/Clip/LaTeX_R_F10/MikTexPortable/fonts/type1/public/amsfonts/c
-m/cmr12.pfb><C:/Users/Nick/Desktop/old desktop/Clip/LaTeX_R_F10/MikTexPortable/
-fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Nick/Desktop/old desktop/Cl
-ip/LaTeX_R_F10/MikTexPortable/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/User
-s/Nick/Desktop/old desktop/Clip/LaTeX_R_F10/MikTexPortable/fonts/type1/public/a
-msfonts/symbols/msam10.pfb>
-Output written on geometry8.pdf (9 pages, 90784 bytes).
+ 27i,14n,24p,1361b,165s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users
+/Nick/Desktop/old desktop/Clip/LaTeX_R_F10/MikTexPortable/fonts/type1/public/am
+sfonts/cm/cmbx12.pfb><C:/Users/Nick/Desktop/old desktop/Clip/LaTeX_R_F10/MikTex
+Portable/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Nick/Desktop/old d
+esktop/Clip/LaTeX_R_F10/MikTexPortable/fonts/type1/public/amsfonts/cm/cmr12.pfb
+><C:/Users/Nick/Desktop/old desktop/Clip/LaTeX_R_F10/MikTexPortable/fonts/type1
+/public/amsfonts/cm/cmr8.pfb><C:/Users/Nick/Desktop/old desktop/Clip/LaTeX_R_F1
+0/MikTexPortable/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Nick/Deskt
+op/old desktop/Clip/LaTeX_R_F10/MikTexPortable/fonts/type1/public/amsfonts/cm/c
+msy8.pfb><C:/Users/Nick/Desktop/old desktop/Clip/LaTeX_R_F10/MikTexPortable/fon
+ts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/Nick/Desktop/old desktop/Clip/
+LaTeX_R_F10/MikTexPortable/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on geometry8.pdf (12 pages, 147989 bytes).
 PDF statistics:
- 57 PDF objects out of 1000 (max. 8388607)
+ 76 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
